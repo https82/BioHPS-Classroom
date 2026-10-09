@@ -1,0 +1,2923 @@
+[
+  {
+    "id": "BIO-001",
+    "theme": "生物体的结构层次",
+    "title": "细胞的基本结构",
+    "summary": "细胞膜、细胞质和细胞核是动植物细胞的基本结构；植物细胞通常还具有细胞壁，部分植物细胞有叶绿体和较大液泡。",
+    "misconception": "细胞膜不是完全封闭的屏障，它参与控制物质进出。",
+    "keywords": [
+      "动物细胞",
+      "植物细胞",
+      "细胞核",
+      "细胞膜",
+      "细胞壁",
+      "叶绿体",
+      "细胞是什么"
+    ],
+    "guide_question": "动物细胞和植物细胞有哪些相同和不同之处？",
+    "source_title": "人工整理课程知识概要（待教师审核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-002",
+    "theme": "生物体的结构层次",
+    "title": "显微镜与细胞观察",
+    "summary": "显微镜帮助观察肉眼不易看清的结构。制作临时装片需要保持样本薄、透光，并通过逐步调焦找到清晰物像。",
+    "misconception": "放大倍数越高不一定越容易找到观察对象；初学时通常先使用低倍镜。",
+    "keywords": [
+      "显微镜",
+      "装片",
+      "低倍镜",
+      "高倍镜",
+      "目镜",
+      "物镜"
+    ],
+    "guide_question": "为什么观察细胞时通常先使用低倍物镜？",
+    "source_title": "人工整理课程知识概要（待教师审核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-003",
+    "theme": "生物体的结构层次",
+    "title": "细胞分裂与分化",
+    "summary": "细胞分裂可使细胞数量增加，细胞分化使细胞在形态、结构和功能上出现差异。生长发育涉及分裂、生长和分化等过程。",
+    "misconception": "细胞分裂和细胞分化不是完全相同的过程。",
+    "keywords": [
+      "细胞分裂",
+      "细胞分化",
+      "组织形成",
+      "生长发育"
+    ],
+    "guide_question": "为什么不同组织的细胞会具有不同功能？",
+    "source_title": "人工整理课程知识概要（待教师审核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-004",
+    "theme": "生物体的结构层次",
+    "title": "组织器官与系统",
+    "summary": "细胞构成组织，多种组织按一定方式构成器官；动物体常由多个器官协同构成系统，而植物的常见结构层次不包含动物式器官系统。",
+    "misconception": "植物体结构层次不应简单照搬动物体的系统层次。",
+    "keywords": [
+      "组织",
+      "器官",
+      "系统",
+      "人体结构层次",
+      "植物体结构层次"
+    ],
+    "guide_question": "心脏为什么是器官而不只是一个组织？",
+    "source_title": "人工整理课程知识概要（待教师审核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-005",
+    "theme": "生物的多样性",
+    "title": "生物分类的依据",
+    "summary": "生物分类依据生物的形态结构、功能以及亲缘关系等证据，物种是分类中的基本单位之一。分类帮助认识多样性及相互关系。",
+    "misconception": "不能仅凭颜色或生活场所就断言两个物种亲缘关系最接近。",
+    "keywords": [
+      "分类",
+      "物种",
+      "界门纲目科属种",
+      "亲缘关系"
+    ],
+    "guide_question": "两种动物都能飞，就一定是亲缘关系很近吗？",
+    "source_title": "人工整理课程知识概要（待教师审核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-006",
+    "theme": "生物的多样性",
+    "title": "植物类群",
+    "summary": "常见植物类群在结构、生殖方式和环境适应方面存在差异，比较植物类群要结合多个特征。",
+    "misconception": "并非所有植物都开花结种子。",
+    "keywords": [
+      "藻类",
+      "苔藓",
+      "蕨类",
+      "裸子植物",
+      "被子植物",
+      "孢子"
+    ],
+    "guide_question": "为什么苔藓植物与种子植物的繁殖特点不同？",
+    "source_title": "人工整理课程知识概要（待教师审核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-007",
+    "theme": "生物的多样性",
+    "title": "动物类群",
+    "summary": "无脊椎动物和脊椎动物具有不同的形态结构与适应特征，分类时需要观察能稳定区分类群的特征。",
+    "misconception": "不是所有生活在水中的动物都是鱼类。",
+    "keywords": [
+      "脊椎动物",
+      "无脊椎动物",
+      "鱼类",
+      "两栖类",
+      "鸟类",
+      "哺乳类",
+      "鲸鱼",
+      "鲸",
+      "海豚",
+      "海洋哺乳动物"
+    ],
+    "guide_question": "鲸生活在水中，为什么属于哺乳动物？",
+    "source_title": "人工整理课程知识概要（待教师审核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-008",
+    "theme": "生物的多样性",
+    "title": "微生物与生活",
+    "summary": "细菌、真菌等微生物在生态系统和人类生活中作用多样，既有有益应用，也可能导致食品变质或感染。",
+    "misconception": "不能把所有微生物都等同于病原体。",
+    "keywords": [
+      "细菌",
+      "真菌",
+      "酵母菌",
+      "霉菌",
+      "微生物"
+    ],
+    "guide_question": "为什么制作面包可以利用酵母菌？",
+    "source_title": "人工整理课程知识概要（待教师审核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-009",
+    "theme": "生物的多样性",
+    "title": "生物多样性保护",
+    "summary": "生物多样性包括遗传、物种和生态系统等层次，栖息地保护、合理利用与监测都有助于保护。",
+    "misconception": "建立保护区并不意味着其他地区不需要生态保护。",
+    "keywords": [
+      "生物多样性",
+      "栖息地",
+      "物种灭绝",
+      "保护区"
+    ],
+    "guide_question": "保护栖息地为什么能够帮助多个物种？",
+    "source_title": "人工整理课程知识概要（待教师审核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-010",
+    "theme": "生物与环境",
+    "title": "生态系统组成",
+    "summary": "生态系统包括一定空间内的生物成分与非生物环境，它们通过能量流动和物质循环彼此联系。",
+    "misconception": "生态系统不只包含动物和植物，光照、水、空气等也属于其环境条件。",
+    "keywords": [
+      "生态系统",
+      "生产者",
+      "消费者",
+      "分解者",
+      "非生物因素"
+    ],
+    "guide_question": "没有分解者，生态系统可能发生什么变化？",
+    "source_title": "人工整理课程知识概要（待教师审核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-011",
+    "theme": "生物与环境",
+    "title": "食物链与食物网",
+    "summary": "食物链反映生物之间的摄食关系，多条食物链相互交错构成食物网，箭头常表示物质和能量传递方向。",
+    "misconception": "不能把太阳直接写成食物链中的一个营养级生物。",
+    "keywords": [
+      "食物链",
+      "食物网",
+      "营养级",
+      "捕食关系"
+    ],
+    "guide_question": "草→蝗虫→青蛙中能量通常怎样传递？",
+    "source_title": "人工整理课程知识概要（待教师审核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-012",
+    "theme": "生物与环境",
+    "title": "生态系统能量流动",
+    "summary": "能量从环境输入生态系统并沿营养关系传递，传递过程存在损耗，不能在各营养级之间无限循环。",
+    "misconception": "能量流动与物质循环的特点并不完全相同。",
+    "keywords": [
+      "能量流动",
+      "能量金字塔",
+      "物质循环",
+      "营养级"
+    ],
+    "guide_question": "为什么通常不能形成很多层的食物链？",
+    "source_title": "人工整理课程知识概要（待教师审核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-013",
+    "theme": "生物与环境",
+    "title": "环境因素与生物适应",
+    "summary": "温度、水分、光照等非生物因素和种间关系会影响生物分布，生物也可通过多种方式适应并影响环境。",
+    "misconception": "发现两种现象同时变化，不等于证明一种现象导致另一种。",
+    "keywords": [
+      "非生物因素",
+      "光照",
+      "温度",
+      "生态适应",
+      "生物与环境"
+    ],
+    "guide_question": "怎样检验光照是否影响鼠妇的分布？",
+    "source_title": "人工整理课程知识概要（待教师审核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-014",
+    "theme": "植物的生活",
+    "title": "种子萌发与幼苗生长",
+    "summary": "种子萌发需要适宜环境条件与具有活力的种子，常见条件包括水分、氧气和适宜温度。",
+    "misconception": "比较某个条件时，应尽量只改变该条件。",
+    "keywords": [
+      "种子萌发",
+      "发芽",
+      "胚",
+      "水分",
+      "氧气",
+      "温度"
+    ],
+    "guide_question": "怎样只研究水分对种子萌发的影响？",
+    "source_title": "人工整理课程知识概要（待教师审核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-015",
+    "theme": "植物的生活",
+    "title": "根茎叶的功能",
+    "summary": "根、茎、叶等器官在吸收、运输和光合等方面分工协作；根系可以吸收水和无机盐，茎可承担运输支持功能。",
+    "misconception": "植物吸收的养分不等于全部有机物都来自土壤。",
+    "keywords": [
+      "根",
+      "茎",
+      "叶",
+      "导管",
+      "筛管",
+      "运输"
+    ],
+    "guide_question": "为什么植物缺水时叶片容易萎蔫？",
+    "source_title": "人工整理课程知识概要（待教师审核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-016",
+    "theme": "植物的生活",
+    "title": "光合作用",
+    "summary": "绿色植物在适宜条件下利用光能合成有机物并释放氧气；光照、温度、二氧化碳等因素可影响光合过程。",
+    "misconception": "水草产生的气泡数通常只是间接指标，不能无条件等同精准光合速率。",
+    "keywords": [
+      "光合作用",
+      "叶绿体",
+      "二氧化碳",
+      "氧气",
+      "光照"
+    ],
+    "guide_question": "为什么光照不足可能影响植物生长？",
+    "source_title": "人工整理课程知识概要（待教师审核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-017",
+    "theme": "植物的生活",
+    "title": "植物呼吸作用",
+    "summary": "植物细胞也进行细胞呼吸，通过分解有机物释放能量供生命活动使用。呼吸作用并非植物夜间才发生。",
+    "misconception": "植物并非只有夜晚才进行呼吸作用。",
+    "keywords": [
+      "呼吸作用",
+      "线粒体",
+      "能量",
+      "有机物"
+    ],
+    "guide_question": "为什么黑暗中植物也需要细胞呼吸？",
+    "source_title": "人工整理课程知识概要（待教师审核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-018",
+    "theme": "植物的生活",
+    "title": "蒸腾作用",
+    "summary": "植物体内的水分可经叶片等部位散失，蒸腾作用与水分运输、环境条件和气孔调节有关。",
+    "misconception": "植物蒸腾失水并不等于所有水分散失都对植物有害。",
+    "keywords": [
+      "蒸腾作用",
+      "气孔",
+      "水分运输",
+      "叶片"
+    ],
+    "guide_question": "为什么晴热有风时植物可能更容易失水？",
+    "source_title": "人工整理课程知识概要（待教师审核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-019",
+    "theme": "植物的生活",
+    "title": "开花传粉与结果",
+    "summary": "许多被子植物经历开花、传粉、受精、果实和种子形成等过程，不同种类的生殖方式存在差异。",
+    "misconception": "传粉和受精是不同的生物学过程。",
+    "keywords": [
+      "花",
+      "传粉",
+      "受精",
+      "果实",
+      "种子形成"
+    ],
+    "guide_question": "为什么有些植物需要昆虫协助传粉？",
+    "source_title": "人工整理课程知识概要（待教师审核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-020",
+    "theme": "人体生理与健康",
+    "title": "营养与消化吸收",
+    "summary": "人体需要多类营养物质，消化系统将食物中较复杂的成分处理为可吸收形式，小肠是营养吸收的重要部位。",
+    "misconception": "食物消化与营养物质吸收并不是同一过程。",
+    "keywords": [
+      "消化",
+      "吸收",
+      "小肠",
+      "淀粉",
+      "蛋白质",
+      "脂肪"
+    ],
+    "guide_question": "为什么小肠适合吸收多种营养物质？",
+    "source_title": "人工整理课程知识概要（待教师审核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-021",
+    "theme": "人体生理与健康",
+    "title": "呼吸与气体交换",
+    "summary": "呼吸系统实现空气进入和排出，肺泡与血液之间可进行氧和二氧化碳交换，气体交换与呼吸运动并不完全相同。",
+    "misconception": "肺吸入空气不代表氧气直接进入每一个细胞。",
+    "keywords": [
+      "呼吸系统",
+      "肺",
+      "肺泡",
+      "气体交换",
+      "氧气"
+    ],
+    "guide_question": "肺泡的结构有哪些适于气体交换的特点？",
+    "source_title": "人工整理课程知识概要（待教师审核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-022",
+    "theme": "人体生理与健康",
+    "title": "血液与血液循环",
+    "summary": "血液由血浆和血细胞等组成，心脏推动血液循环，血管在运输物质与气体中发挥不同作用。",
+    "misconception": "动脉和静脉主要按血液流出或流入心脏区分，并非简单按含氧量区分。",
+    "keywords": [
+      "血液循环",
+      "心脏",
+      "动脉",
+      "静脉",
+      "毛细血管",
+      "心脏四个腔",
+      "四个腔"
+    ],
+    "guide_question": "为什么毛细血管适合进行物质交换？",
+    "source_title": "人工整理课程知识概要（待教师审核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-023",
+    "theme": "人体生理与健康",
+    "title": "神经调节与反射",
+    "summary": "神经系统接收、处理信息并协调人体活动；反射是神经系统参与的规律性反应。",
+    "misconception": "反射不等同于所有有意识的复杂行为。",
+    "keywords": [
+      "反射弧",
+      "神经系统",
+      "大脑",
+      "脊髓",
+      "神经元"
+    ],
+    "guide_question": "碰到烫的东西为什么会迅速缩手？",
+    "source_title": "人工整理课程知识概要（待教师审核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-024",
+    "theme": "人体生理与健康",
+    "title": "激素调节与稳态",
+    "summary": "人体一些生命活动受到激素与神经系统共同调节，体内环境相对稳定依靠多个系统共同维持。",
+    "misconception": "激素调节不是完全独立于神经系统的过程。",
+    "keywords": [
+      "激素",
+      "内分泌",
+      "血糖",
+      "稳态"
+    ],
+    "guide_question": "为什么人体血糖需要维持在适宜范围？",
+    "source_title": "人工整理课程知识概要（待教师审核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-025",
+    "theme": "人体生理与健康",
+    "title": "免疫与传染病预防",
+    "summary": "免疫系统帮助机体识别并应对部分病原体，预防传染病需要理解传染源、传播途径和易感人群等环节。",
+    "misconception": "疫苗不能被描述为对所有感染的百分之百保护。",
+    "keywords": [
+      "免疫",
+      "疫苗",
+      "传染病",
+      "病原体",
+      "抗体"
+    ],
+    "guide_question": "为什么接种疫苗有助于预防某些传染病？",
+    "source_title": "人工整理课程知识概要（待教师审核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-026",
+    "theme": "人体生理与健康",
+    "title": "运动系统与健康生活",
+    "summary": "骨、关节和肌肉相互配合完成多种运动，均衡饮食、适度活动、睡眠与卫生习惯影响健康。",
+    "misconception": "骨骼肌通常通过收缩产生拉力，而不是主动推力。",
+    "keywords": [
+      "骨骼肌",
+      "关节",
+      "骨骼",
+      "运动",
+      "健康生活"
+    ],
+    "guide_question": "为什么一块骨骼肌单独不能完成所有方向的关节运动？",
+    "source_title": "人工整理课程知识概要（待教师审核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-027",
+    "theme": "遗传与进化",
+    "title": "DNA基因与染色体",
+    "summary": "DNA承载遗传信息，基因通常是具有特定遗传功能的DNA片段，染色体由DNA与蛋白质等组成。",
+    "misconception": "基因、DNA和染色体不是三个互不关联的独立容器。",
+    "keywords": [
+      "DNA",
+      "基因",
+      "染色体",
+      "遗传信息"
+    ],
+    "guide_question": "为什么亲子之间会表现出某些相似性？",
+    "source_title": "人工整理课程知识概要（待教师审核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-028",
+    "theme": "遗传与进化",
+    "title": "性状遗传与变异",
+    "summary": "后代既可能与亲代相似，也会存在差异；遗传因素与环境可共同影响某些性状表现。",
+    "misconception": "不能把所有性状差异都归结为基因改变。",
+    "keywords": [
+      "遗传",
+      "变异",
+      "性状",
+      "显性",
+      "隐性"
+    ],
+    "guide_question": "同一种植物在不同光照下长高不同，必然是基因不同吗？",
+    "source_title": "人工整理课程知识概要（待教师审核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-029",
+    "theme": "遗传与进化",
+    "title": "生殖与个体发育",
+    "summary": "有性生殖涉及配子的结合，受精卵经过细胞分裂、分化形成个体；不同生物有不同发育方式。",
+    "misconception": "植物无性繁殖与有性繁殖并非完全相同过程。",
+    "keywords": [
+      "生殖",
+      "受精卵",
+      "胚胎",
+      "有性生殖",
+      "无性生殖"
+    ],
+    "guide_question": "扦插繁殖与种子繁殖有什么主要区别？",
+    "source_title": "人工整理课程知识概要（待教师审核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-030",
+    "theme": "遗传与进化",
+    "title": "自然选择与生物进化",
+    "summary": "种群中的遗传变异与环境选择等机制可影响世代间特征变化，自然选择与适应有关但不是生物主动按需要产生定向突变。",
+    "misconception": "个体不会因为想适应环境就直接产生所需的遗传变异。",
+    "keywords": [
+      "自然选择",
+      "进化",
+      "适应",
+      "遗传变异",
+      "化石"
+    ],
+    "guide_question": "为什么耐药细菌的比例可能在抗生素使用后上升？",
+    "source_title": "人工整理课程知识概要（待教师审核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-031",
+    "theme": "生物学与社会·跨学科实践",
+    "title": "校园生态调查",
+    "summary": "通过设定调查范围、记录物种和环境信息，可认识校园生境与生物多样性；应记录方法与限制。",
+    "misconception": "少量样点不能直接代表所有校园环境。",
+    "keywords": [
+      "校园调查",
+      "样方",
+      "生物多样性调查",
+      "样点"
+    ],
+    "guide_question": "怎样设计一个可重复的校园植物调查？",
+    "source_title": "人工整理课程知识概要（待教师审核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-032",
+    "theme": "生物学与社会·跨学科实践",
+    "title": "食品发酵与微生物",
+    "summary": "微生物参与食品发酵等生产实践，但操作必须注意卫生及食品安全，不建议学生进行有风险的微生物培养。",
+    "misconception": "观察到气泡不意味着已经确认某一种特定微生物。",
+    "keywords": [
+      "食品发酵",
+      "酵母",
+      "乳酸菌",
+      "酸奶",
+      "面包",
+      "酿酒",
+      "发酵食品"
+    ],
+    "guide_question": "如何安全地观察面团发酵现象？",
+    "source_title": "人工整理课程知识概要（待教师审核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-033",
+    "theme": "生物学与社会·跨学科实践",
+    "title": "生活垃圾与生态",
+    "summary": "垃圾分类、减量和资源回收与生态环境保护有关，评价实际效果要注意收集可核查数据。",
+    "misconception": "回收率提高不代表所有环境影响自动消失。",
+    "keywords": [
+      "垃圾分类",
+      "资源回收",
+      "环境保护",
+      "碳排放"
+    ],
+    "guide_question": "怎样记录班级一周的可回收物数量？",
+    "source_title": "人工整理课程知识概要（待教师审核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-034",
+    "theme": "生物学与社会·跨学科实践",
+    "title": "健康信息的科学判断",
+    "summary": "遇到网络传播的健康说法，应关注权威证据来源、研究局限和个体差异；学校健康教育不替代专业医疗咨询。",
+    "misconception": "网络流传的个体经历不能代替可靠医学证据。",
+    "keywords": [
+      "健康谣言",
+      "证据等级",
+      "健康信息",
+      "公共卫生"
+    ],
+    "guide_question": "如何判断某个网络养生说法是否可信？",
+    "source_title": "人工整理课程知识概要（待教师审核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-035",
+    "theme": "生物学与社会·跨学科实践",
+    "title": "生物技术与伦理",
+    "summary": "生物技术应用可能带来农业、医疗和环境方面的收益，也需要关注安全性、知情和社会伦理。",
+    "misconception": "是否应用一种技术不能只看潜在收益而忽略限制。",
+    "keywords": [
+      "生物技术",
+      "基因编辑",
+      "伦理",
+      "转基因",
+      "科学与社会"
+    ],
+    "guide_question": "怎样从风险与收益两方面讨论一项新生物技术？",
+    "source_title": "人工整理课程知识概要（待教师审核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-036",
+    "theme": "生物体的结构层次",
+    "title": "单细胞生物的生活",
+    "summary": "草履虫等单细胞生物能够在一个细胞内完成营养摄取、运动和繁殖等生命活动；一个细胞不等于没有复杂的生命功能。",
+    "misconception": "单细胞生物不是没有生命活动的简单颗粒。",
+    "keywords": [
+      "草履虫",
+      "单细胞",
+      "变形虫",
+      "单细胞动物"
+    ],
+    "guide_question": "草履虫只有一个细胞，为什么仍能独立生活？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-037",
+    "theme": "生物体的结构层次",
+    "title": "细胞膜的功能",
+    "summary": "细胞膜包围细胞并参与物质进出调节，细胞与环境之间可以进行有选择的物质交换。",
+    "misconception": "细胞膜不是任何物质都不能通过的密封袋。",
+    "keywords": [
+      "细胞膜",
+      "控制物质进出",
+      "选择透过"
+    ],
+    "guide_question": "细胞需要吸收营养，细胞膜应具有什么特点？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-038",
+    "theme": "生物体的结构层次",
+    "title": "细胞核与遗传信息",
+    "summary": "许多真核细胞的细胞核中含有主要遗传物质，核内染色体与细胞分裂、遗传信息传递有关。",
+    "misconception": "不是所有细胞都有细胞核，例如成熟哺乳动物红细胞没有细胞核。",
+    "keywords": [
+      "细胞核",
+      "遗传信息",
+      "染色体",
+      "细胞核作用"
+    ],
+    "guide_question": "同一个人不同体细胞为何能执行不同工作？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-039",
+    "theme": "生物体的结构层次",
+    "title": "植物细胞壁与液泡",
+    "summary": "植物细胞壁在维持细胞形态与支持方面有作用；较大的液泡参与储存细胞液和维持细胞膨压。",
+    "misconception": "植物细胞壁与细胞膜的功能并不相同。",
+    "keywords": [
+      "植物细胞壁",
+      "液泡",
+      "细胞液",
+      "膨压",
+      "质壁分离"
+    ],
+    "guide_question": "萎蔫叶片补水后恢复挺立与细胞内什么结构有关？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-040",
+    "theme": "生物体的结构层次",
+    "title": "叶绿体和线粒体",
+    "summary": "叶绿体是绿色植物细胞进行光合作用的重要场所；线粒体参与细胞呼吸过程并为生命活动提供可利用能量。",
+    "misconception": "不能认为所有植物细胞都有叶绿体，例如根部细胞通常没有。",
+    "keywords": [
+      "线粒体",
+      "叶绿体",
+      "细胞器",
+      "能量转换"
+    ],
+    "guide_question": "洋葱鳞片叶内表皮细胞一定有叶绿体吗？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-041",
+    "theme": "生物体的结构层次",
+    "title": "细胞大小与观察尺度",
+    "summary": "细胞通常需要借助显微镜观察；显微镜总放大倍数由目镜和物镜放大倍数相乘获得，但放大倍数与清晰度并非同一概念。",
+    "misconception": "放大倍数越高，视野不一定越清楚。",
+    "keywords": [
+      "目镜",
+      "物镜",
+      "放大倍数",
+      "视野",
+      "清晰度"
+    ],
+    "guide_question": "物镜放大倍数增加后，视野范围会怎样变化？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-042",
+    "theme": "生物体的结构层次",
+    "title": "临时装片的制作",
+    "summary": "临时装片需要薄而透明的材料，盖盖玻片时应尽量减少气泡；不同材料的制片步骤和染色要求可能不同。",
+    "misconception": "盖玻片下面的气泡并不是细胞结构。",
+    "keywords": [
+      "装片",
+      "盖玻片",
+      "气泡",
+      "洋葱表皮",
+      "染色"
+    ],
+    "guide_question": "观察洋葱表皮时如何区分气泡与细胞？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-043",
+    "theme": "生物体的结构层次",
+    "title": "植物组织类型",
+    "summary": "植物常见组织包括保护组织、营养组织、输导组织和分生组织，不同组织在结构和功能上有分工。",
+    "misconception": "不是植物所有细胞都能持续分裂。",
+    "keywords": [
+      "分生组织",
+      "保护组织",
+      "输导组织",
+      "营养组织"
+    ],
+    "guide_question": "根尖哪些细胞区域更容易观察到细胞分裂？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-044",
+    "theme": "生物体的结构层次",
+    "title": "动物基本组织",
+    "summary": "动物常见组织包括上皮组织、结缔组织、肌肉组织和神经组织，它们共同构成器官并承担不同功能。",
+    "misconception": "血液属于结缔组织，不能因它是液体就排除。",
+    "keywords": [
+      "上皮组织",
+      "结缔组织",
+      "肌肉组织",
+      "神经组织"
+    ],
+    "guide_question": "心脏内哪些组织共同完成泵血功能？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-045",
+    "theme": "生物体的结构层次",
+    "title": "器官和系统的协同",
+    "summary": "人体消化系统包含多个器官，器官由多种组织组成；系统协调使食物加工、营养吸收等活动得以进行。",
+    "misconception": "胃不是整个消化系统，器官也不是单一种组织。",
+    "keywords": [
+      "器官",
+      "系统",
+      "消化系统",
+      "胃",
+      "小肠"
+    ],
+    "guide_question": "胃与小肠为什么需要协同完成消化吸收？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-046",
+    "theme": "生物体的结构层次",
+    "title": "细胞分裂的意义",
+    "summary": "细胞分裂可增加细胞数目，与生物体生长、组织更新及某些生物的繁殖有关，分裂时遗传物质需要适当分配。",
+    "misconception": "生物个体长大不一定仅依赖细胞体积增大。",
+    "keywords": [
+      "细胞分裂",
+      "细胞数目",
+      "伤口修复"
+    ],
+    "guide_question": "伤口表皮逐渐修复与哪些细胞活动有关？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-047",
+    "theme": "生物体的结构层次",
+    "title": "细胞分化与组织形成",
+    "summary": "受精卵发育过程中，部分细胞出现形态、结构和功能差异，从而形成不同组织；不同类型细胞之间仍可能具有相同的遗传信息。",
+    "misconception": "分化后功能不同不代表每类细胞都拥有完全不同的DNA。",
+    "keywords": [
+      "细胞分化",
+      "组织形成",
+      "受精卵",
+      "功能分工"
+    ],
+    "guide_question": "肌肉细胞与神经细胞为何功能不同？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-048",
+    "theme": "生物体的结构层次",
+    "title": "植物器官的分工",
+    "summary": "常见绿色开花植物具有根、茎、叶、花、果实、种子等器官，不同器官之间进行物质运输与功能配合。",
+    "misconception": "叶片不只负责蒸腾，也能进行光合作用和呼吸。",
+    "keywords": [
+      "根茎叶",
+      "花果实种子",
+      "植物器官",
+      "输导"
+    ],
+    "guide_question": "根吸收的水怎样到达叶片？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-049",
+    "theme": "生物体的结构层次",
+    "title": "植物和动物的结构层次比较",
+    "summary": "植物与高等动物都由细胞构成，但动物的常见结构层次包括系统，绿色开花植物一般描述为细胞、组织、器官到个体。",
+    "misconception": "不能把人体的器官系统直接套用到所有植物。",
+    "keywords": [
+      "动植物结构层次",
+      "细胞组织器官",
+      "系统"
+    ],
+    "guide_question": "心脏属于哪一层次，叶片属于哪一层次？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-050",
+    "theme": "生物体的结构层次",
+    "title": "原核细胞与真核细胞",
+    "summary": "细菌等原核生物没有以核膜包围的细胞核；植物和动物细胞通常属于真核细胞，二者在内部结构上存在重要差别。",
+    "misconception": "没有成形细胞核不代表没有遗传物质。",
+    "keywords": [
+      "原核细胞",
+      "真核细胞",
+      "细菌",
+      "核膜",
+      "细菌有dna",
+      "没有细胞核"
+    ],
+    "guide_question": "细菌与洋葱表皮细胞都含有遗传信息吗？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-051",
+    "theme": "生物体的结构层次",
+    "title": "细胞生长与物质交换",
+    "summary": "细胞增大时表面积与体积的比例会发生变化，物质交换条件与细胞大小有关；生物个体生长还涉及细胞数量增加。",
+    "misconception": "细胞不能无上限地一直增大。",
+    "keywords": [
+      "细胞生长",
+      "表面积体积比",
+      "物质交换"
+    ],
+    "guide_question": "为什么多细胞动物不是由一个无限变大的细胞组成？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-052",
+    "theme": "生物体的结构层次",
+    "title": "细胞观察中的变量控制",
+    "summary": "比较两类细胞时应尽量统一显微镜观察倍率与制片条件，再基于可观察的结构差异得出结论。",
+    "misconception": "不同倍率下看到的大小差异不能直接当作细胞真实尺寸差异。",
+    "keywords": [
+      "显微观察",
+      "变量控制",
+      "口腔上皮",
+      "洋葱表皮"
+    ],
+    "guide_question": "比较洋葱表皮与口腔上皮时要控制什么？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-053",
+    "theme": "生物体的结构层次",
+    "title": "结构与功能相适应",
+    "summary": "组织和细胞结构常与其承担的功能相关，例如小肠内表面积大的特点有利于营养吸收。",
+    "misconception": "结构功能关系不是只靠外形就能推断的，仍需要事实依据。",
+    "keywords": [
+      "结构功能",
+      "结构与功能",
+      "小肠绒毛",
+      "适应"
+    ],
+    "guide_question": "为什么小肠内表面有丰富的皱襞和绒毛？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-054",
+    "theme": "生物的多样性",
+    "title": "脊椎动物与无脊椎动物",
+    "summary": "通常根据体内是否具有脊柱，将动物分为脊椎动物和无脊椎动物；这只是分类中常见的一个比较角度。",
+    "misconception": "没有骨头的动物不一定没有支持结构。",
+    "keywords": [
+      "脊椎动物",
+      "无脊椎动物",
+      "脊柱"
+    ],
+    "guide_question": "蚯蚓、鲫鱼和蜗牛中哪些有脊柱？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-055",
+    "theme": "生物的多样性",
+    "title": "鱼类的适应特点",
+    "summary": "多数鱼类生活在水中，通常用鳃进行气体交换，依靠鳍等结构运动；不同鱼类生活方式存在差异。",
+    "misconception": "生活在水里的动物不一定都是鱼。",
+    "keywords": [
+      "鱼类",
+      "鱼鳃",
+      "鱼鳍",
+      "鲫鱼"
+    ],
+    "guide_question": "海豚和鲫鱼的呼吸方式相同吗？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-056",
+    "theme": "生物的多样性",
+    "title": "两栖动物的生活史",
+    "summary": "青蛙等两栖动物的幼体和成体生活环境及呼吸方式可有明显差异，蝌蚪主要用鳃呼吸，成蛙可用肺和皮肤参与呼吸。",
+    "misconception": "青蛙成体不是只能通过肺呼吸。",
+    "keywords": [
+      "两栖动物",
+      "青蛙",
+      "蝌蚪",
+      "变态发育"
+    ],
+    "guide_question": "蝌蚪到成蛙经历了哪些呼吸结构的变化？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-057",
+    "theme": "生物的多样性",
+    "title": "爬行动物的生殖适应",
+    "summary": "多数典型爬行动物体表有角质鳞片或甲，用肺呼吸；适应陆地的受精及卵结构有利于减少对水环境的依赖。",
+    "misconception": "爬行动物并非都生活在干燥环境中。",
+    "keywords": [
+      "爬行动物",
+      "龟",
+      "蜥蜴",
+      "鳞片"
+    ],
+    "guide_question": "龟在水中活动时仍需要到水面呼吸吗？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-058",
+    "theme": "生物的多样性",
+    "title": "鸟类适应飞行的结构",
+    "summary": "许多鸟类具有羽毛、前肢特化为翼、骨骼相对轻而坚固等与飞行有关的特点，但并非所有鸟都能飞。",
+    "misconception": "会飞的不一定是鸟，鸟也不一定能飞。",
+    "keywords": [
+      "鸟类",
+      "羽毛",
+      "翼",
+      "鸵鸟",
+      "蝙蝠"
+    ],
+    "guide_question": "蝙蝠和鸟都能飞，为何属于不同动物类群？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-059",
+    "theme": "生物的多样性",
+    "title": "哺乳动物的主要特征",
+    "summary": "哺乳动物通常用肺呼吸，雌性具有乳腺并哺育后代，多数胎生，但存在少数例外如卵生的鸭嘴兽。",
+    "misconception": "胎生不是判定哺乳动物时绝对无例外的唯一标准。",
+    "keywords": [
+      "哺乳动物",
+      "乳腺",
+      "鸭嘴兽",
+      "卵生哺乳"
+    ],
+    "guide_question": "为什么鸭嘴兽产卵仍被归入哺乳动物？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-060",
+    "theme": "生物的多样性",
+    "title": "节肢动物与昆虫",
+    "summary": "节肢动物具有分节的身体与附肢；昆虫属于节肢动物，其成虫通常具有头胸腹三部分和三对足。",
+    "misconception": "蜘蛛属于节肢动物，但不是昆虫。",
+    "keywords": [
+      "昆虫",
+      "节肢动物",
+      "蜘蛛",
+      "蚂蚁",
+      "三对足"
+    ],
+    "guide_question": "蜘蛛和蚂蚁的足数相同吗？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-061",
+    "theme": "生物的多样性",
+    "title": "软体动物的结构",
+    "summary": "软体动物身体多较柔软，部分种类有贝壳，如蜗牛、河蚌；章鱼虽无外露贝壳也属于软体动物。",
+    "misconception": "没有贝壳并不能排除软体动物身份。",
+    "keywords": [
+      "软体动物",
+      "章鱼",
+      "蜗牛",
+      "河蚌"
+    ],
+    "guide_question": "章鱼为什么不属于鱼类？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-062",
+    "theme": "生物的多样性",
+    "title": "环节动物与土壤",
+    "summary": "蚯蚓身体由许多相似体节构成，其活动可影响土壤的通气和有机物分解过程。",
+    "misconception": "蚯蚓不属于昆虫，也没有昆虫那样的三对足。",
+    "keywords": [
+      "环节动物",
+      "蚯蚓",
+      "体节",
+      "土壤"
+    ],
+    "guide_question": "蚯蚓身体分节有哪些意义？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-063",
+    "theme": "生物的多样性",
+    "title": "藻类与水生植物",
+    "summary": "藻类是一类较多样的光合生物，其中许多生活在水中；不同藻类不一定具有真正的根、茎、叶分化。",
+    "misconception": "能在水中光合作用的生物不一定有高等植物的完整器官。",
+    "keywords": [
+      "藻类",
+      "海带",
+      "水藻",
+      "根茎叶"
+    ],
+    "guide_question": "海带的固着结构与绿色开花植物的根完全一样吗？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-064",
+    "theme": "生物的多样性",
+    "title": "苔藓和蕨类比较",
+    "summary": "苔藓植物通常没有发达的输导组织；蕨类具有根茎叶及输导结构，二者常依赖水完成受精过程。",
+    "misconception": "蕨类繁殖不依靠种子。",
+    "keywords": [
+      "苔藓",
+      "蕨类",
+      "孢子",
+      "输导组织"
+    ],
+    "guide_question": "为什么蕨类通常比苔藓长得高大？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-065",
+    "theme": "生物的多样性",
+    "title": "裸子植物与被子植物",
+    "summary": "裸子植物的种子通常不被果皮包被；被子植物能够形成花、果实和受果皮包裹的种子。",
+    "misconception": "松树的松球不是被子植物意义上的果实。",
+    "keywords": [
+      "裸子植物",
+      "被子植物",
+      "松果",
+      "果实"
+    ],
+    "guide_question": "松子和苹果里的种子受到的包被一样吗？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-066",
+    "theme": "生物的多样性",
+    "title": "细菌的基本特征",
+    "summary": "细菌一般为单细胞原核生物，可通过分裂增殖；细菌种类繁多，既有可能致病的种类，也有参与物质循环或食品制作的种类。",
+    "misconception": "不是所有细菌都会使人生病。",
+    "keywords": [
+      "细菌",
+      "原核生物",
+      "分裂生殖",
+      "益生菌"
+    ],
+    "guide_question": "为什么酸奶生产会利用部分细菌？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-067",
+    "theme": "生物的多样性",
+    "title": "真菌与细菌的区别",
+    "summary": "酵母菌、霉菌和蘑菇都属于真菌，真菌细胞与细菌在细胞核结构等方面不同；真菌没有叶绿体，常依靠现成有机物生活。",
+    "misconception": "蘑菇不是绿色植物，酵母菌也不是细菌。",
+    "keywords": [
+      "真菌",
+      "酵母菌",
+      "霉菌",
+      "蘑菇"
+    ],
+    "guide_question": "酵母菌与乳酸菌的细胞结构相同吗？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-068",
+    "theme": "生物的多样性",
+    "title": "病毒与细胞",
+    "summary": "病毒不具有完整细胞结构，通常依赖宿主细胞完成复制；病毒与细菌在结构及防治方式上存在显著差异。",
+    "misconception": "抗菌药物不能直接用于治疗所有病毒感染。",
+    "keywords": [
+      "病毒",
+      "宿主细胞",
+      "病毒复制",
+      "抗生素"
+    ],
+    "guide_question": "为什么病毒不能在普通营养培养基上独立繁殖？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-069",
+    "theme": "生物的多样性",
+    "title": "生物多样性的层次",
+    "summary": "生物多样性可从遗传多样性、物种多样性和生态系统多样性等层面理解，各层面相互关联。",
+    "misconception": "保护生物多样性不等于只保护少数明星动物。",
+    "keywords": [
+      "生物多样性",
+      "遗传多样性",
+      "物种多样性",
+      "生态系统多样性"
+    ],
+    "guide_question": "为什么保护栖息地有助于保护不同物种？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-070",
+    "theme": "生物的多样性",
+    "title": "外来入侵物种的影响",
+    "summary": "一些外来物种进入新环境后可能快速扩张并影响当地生物群落，但并不是每个外来物种都会成为入侵物种。",
+    "misconception": "外来物种与入侵物种不是完全同义词。",
+    "keywords": [
+      "外来入侵物种",
+      "物种入侵",
+      "生态风险"
+    ],
+    "guide_question": "为什么引进一种观赏植物前需要评估生态风险？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-071",
+    "theme": "生物的多样性",
+    "title": "分类证据与共同祖先",
+    "summary": "外形、解剖结构和分子信息可以为生物分类及亲缘关系推断提供证据，生活环境相似可能造成非亲缘物种出现相似形态。",
+    "misconception": "两种动物外观相似不必然意味着亲缘关系最近。",
+    "keywords": [
+      "分类证据",
+      "共同祖先",
+      "亲缘关系",
+      "趋同演化"
+    ],
+    "guide_question": "鲨鱼和海豚形似，它们的亲缘关系一定近吗？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-072",
+    "theme": "生物与环境",
+    "title": "非生物因素与生物因素",
+    "summary": "光照、温度、水分等属于非生物环境因素，捕食、竞争、共生等属于生物之间的相互作用。",
+    "misconception": "环境因素不仅包括天气，也包括其他生物。",
+    "keywords": [
+      "非生物因素",
+      "生物因素",
+      "光照温度水分"
+    ],
+    "guide_question": "向日葵幼苗受光照和杂草影响分别属于哪类因素？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-073",
+    "theme": "生物与环境",
+    "title": "生态系统的边界",
+    "summary": "生态系统由一定区域内的生物及其非生物环境构成，可大可小；生态系统划分依研究目的确定。",
+    "misconception": "一个池塘生态系统不只包含池中的鱼。",
+    "keywords": [
+      "生态系统",
+      "池塘",
+      "生物群落"
+    ],
+    "guide_question": "池塘里哪些物质和生物应纳入调查？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-074",
+    "theme": "生物与环境",
+    "title": "生产者消费者分解者",
+    "summary": "生产者通过光合作用等方式形成有机物，消费者通过摄食获取有机物，分解者帮助分解遗体和排泄物等。",
+    "misconception": "分解者不只有细菌，真菌等也很重要。",
+    "keywords": [
+      "生产者",
+      "消费者",
+      "分解者",
+      "真菌"
+    ],
+    "guide_question": "落叶在林地逐渐分解主要依赖哪些生物活动？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-075",
+    "theme": "生物与环境",
+    "title": "食物网与生态关系",
+    "summary": "多条食物链相互交错形成食物网，生态系统内一种生物数量变化可能通过取食关系影响其他种类。",
+    "misconception": "食物链不是孤立且永远不变的一条直线。",
+    "keywords": [
+      "食物网",
+      "食物链",
+      "捕食关系"
+    ],
+    "guide_question": "草减少后兔和狐可能受到哪些影响？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-076",
+    "theme": "生物与环境",
+    "title": "能量流动的方向",
+    "summary": "生态系统的能量通常以太阳能为主要起点，经生产者和消费者等环节传递，并在各过程中以热等形式散失。",
+    "misconception": "生态系统中的能量不能像物质一样循环使用。",
+    "keywords": [
+      "生态系统能量流动",
+      "能量传递",
+      "营养级",
+      "能量逐级减少"
+    ],
+    "guide_question": "为什么较高营养级通常能支持的生物量较少？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-077",
+    "theme": "生物与环境",
+    "title": "物质循环与分解",
+    "summary": "碳、水等物质在生物与环境之间循环，分解者帮助将有机物转化为较简单的物质。",
+    "misconception": "物质循环与能量单向流动不能混为一谈。",
+    "keywords": [
+      "物质循环",
+      "碳循环",
+      "分解作用"
+    ],
+    "guide_question": "落叶腐烂后，其中的物质最终去了哪里？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-078",
+    "theme": "生物与环境",
+    "title": "生态平衡与扰动",
+    "summary": "生态系统具有一定的自我调节能力，但环境剧变或持续扰动可使群落发生明显变化，调节能力存在限度。",
+    "misconception": "生态平衡不是各物种数量永远固定。",
+    "keywords": [
+      "生态平衡",
+      "生态稳定性",
+      "自我调节"
+    ],
+    "guide_question": "如果某种捕食者被大量移除会发生什么？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-079",
+    "theme": "生物与环境",
+    "title": "生态位与竞争",
+    "summary": "生物利用食物、空间与时间等资源的方式不同，资源重叠时可能发生竞争；生态位体现生物与环境的综合关系。",
+    "misconception": "生活在同一地点的两个物种不一定完全相同。",
+    "keywords": [
+      "生态位",
+      "种间竞争",
+      "竞争关系"
+    ],
+    "guide_question": "同一片草地两种草为什么可能竞争？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-080",
+    "theme": "生物与环境",
+    "title": "共生与寄生",
+    "summary": "某些生物之间形成密切关系，例如根瘤菌与豆科植物的互利共生、寄生虫从宿主获取营养。",
+    "misconception": "共生不等于一方获益另一方一定受害。",
+    "keywords": [
+      "共生",
+      "寄生",
+      "根瘤菌",
+      "豆科"
+    ],
+    "guide_question": "根瘤菌与豆科植物之间有哪些互相帮助？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-081",
+    "theme": "生物与环境",
+    "title": "适应与自然选择",
+    "summary": "生物的形态、行为和生理特点可能有利于其在特定环境中生存，但适应具有条件性，不等于为了需要而立即产生变化。",
+    "misconception": "个体想适应就主动产生可遗传的新特征的说法不严谨。",
+    "keywords": [
+      "生物适应",
+      "环境适应",
+      "自然选择"
+    ],
+    "guide_question": "沙漠植物的叶片和根系有哪些常见适应特征？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-082",
+    "theme": "生物与环境",
+    "title": "样方调查的基本原则",
+    "summary": "对草本植物等相对固定对象，可在适当地点随机设置样方并记录种类或数量，样方大小与数量应符合调查目的。",
+    "misconception": "不能只挑植物最茂盛的位置来代表全部样地。",
+    "keywords": [
+      "样方",
+      "随机抽样",
+      "种群密度"
+    ],
+    "guide_question": "为什么随机布设样方比只选路边更可靠？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-083",
+    "theme": "生物与环境",
+    "title": "生态调查的数据误差",
+    "summary": "生态调查需要记录时间、天气、样点和方法等，重复观测与统一标准有助于分析不确定性。",
+    "misconception": "一次观察的数量并不必然代表稳定的长期状况。",
+    "keywords": [
+      "生态调查",
+      "调查误差",
+      "重复观测"
+    ],
+    "guide_question": "为什么同一池塘早晨和中午记录可能不同？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-084",
+    "theme": "生物与环境",
+    "title": "水污染与生物指标",
+    "summary": "水体营养物质过多可能造成藻类大量繁殖并影响溶解氧，某些水生生物变化可为环境质量提供线索。",
+    "misconception": "水面变绿并不能单独证明所有污染原因。",
+    "keywords": [
+      "水污染",
+      "富营养化",
+      "藻华",
+      "溶解氧",
+      "藻类大量繁殖",
+      "缺氧"
+    ],
+    "guide_question": "判断池塘水质变化时还应收集哪些证据？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-085",
+    "theme": "生物与环境",
+    "title": "栖息地碎片化",
+    "summary": "道路与土地利用变化可能使原本连续的栖息地分割成较小斑块，影响动物迁移、繁殖和种群交流。",
+    "misconception": "建立保护地不能只考虑保护地内部面积。",
+    "keywords": [
+      "栖息地",
+      "栖息地碎片化",
+      "生态廊道"
+    ],
+    "guide_question": "为什么动物通道可能帮助减少道路阻隔？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-086",
+    "theme": "生物与环境",
+    "title": "生物防治与生态风险",
+    "summary": "合理利用捕食者或其他生物关系可帮助控制部分有害生物，但引入外来防治生物前应评估对当地生态系统的影响。",
+    "misconception": "生物防治并不等于完全没有生态风险。",
+    "keywords": [
+      "生物防治",
+      "天敌",
+      "害虫"
+    ],
+    "guide_question": "使用天敌防治害虫时需要关注哪些条件？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-087",
+    "theme": "植物的生活",
+    "title": "种子结构与储存营养",
+    "summary": "不同植物种子含有种皮、胚及营养储存组织等结构，胚通常包含胚芽、胚轴、胚根和子叶。",
+    "misconception": "所有种子的营养储存位置不完全相同。",
+    "keywords": [
+      "种子结构",
+      "胚芽",
+      "胚根",
+      "子叶"
+    ],
+    "guide_question": "玉米与菜豆的种子结构有哪些差异？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-088",
+    "theme": "植物的生活",
+    "title": "种子萌发的外界条件",
+    "summary": "种子萌发通常需要适宜的温度、一定水分和氧气；不同物种对光照等条件的需求也可能不同。",
+    "misconception": "水越多不一定越好，浸水可能影响供氧。",
+    "keywords": [
+      "种子萌发",
+      "发芽条件",
+      "水分温度氧气",
+      "泡水",
+      "缺氧发芽"
+    ],
+    "guide_question": "种子一直泡在密闭水里为什么可能不发芽？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-089",
+    "theme": "植物的生活",
+    "title": "种子萌发的内部条件",
+    "summary": "种子的胚需保持生命力并在适宜生理状态下萌发；保存状况、休眠及成熟程度等会影响萌发结果。",
+    "misconception": "外界条件合适不保证每颗种子都能萌发。",
+    "keywords": [
+      "种子活力",
+      "种子休眠",
+      "萌发"
+    ],
+    "guide_question": "如何区分种子已经死亡和暂时休眠？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-090",
+    "theme": "植物的生活",
+    "title": "根尖的区域分工",
+    "summary": "根尖通常包括根冠、分生区、伸长区、成熟区等区域，成熟区常具有根毛，帮助扩大吸收水和无机盐的接触面积。",
+    "misconception": "根尖并非所有区域的主要功能都一样。",
+    "keywords": [
+      "根尖",
+      "根毛",
+      "成熟区",
+      "伸长区"
+    ],
+    "guide_question": "为什么根毛集中在根尖某些区域？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-091",
+    "theme": "植物的生活",
+    "title": "植物水分运输",
+    "summary": "植物吸收的水主要经木质部向地上部分运输，蒸腾可形成推动水分运输的拉力，运输也受其他条件影响。",
+    "misconception": "植物运输水分不是单靠根部把水直接推到每片叶。",
+    "keywords": [
+      "木质部",
+      "导管",
+      "运输水分",
+      "蒸腾拉力"
+    ],
+    "guide_question": "高大树木中的水怎样到达树冠？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-092",
+    "theme": "植物的生活",
+    "title": "无机盐与植物生长",
+    "summary": "氮、磷、钾等矿质元素参与植物多种生命活动，缺乏必要元素可引起生长异常，施肥量需要合理控制。",
+    "misconception": "施肥越多植物长得越好是错误的。",
+    "keywords": [
+      "无机盐",
+      "施肥",
+      "氮磷钾",
+      "矿质营养"
+    ],
+    "guide_question": "同一植物施肥过量为什么可能萎蔫？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-093",
+    "theme": "植物的生活",
+    "title": "光合作用的原料产物",
+    "summary": "绿色植物光合作用通常利用光能，将二氧化碳和水等转变为有机物，并释放氧气；反应受光照和其他环境条件影响。",
+    "misconception": "光合作用产生的氧气并非直接来自二氧化碳分子的氧原子。",
+    "keywords": [
+      "光合作用",
+      "二氧化碳",
+      "氧气",
+      "有机物"
+    ],
+    "guide_question": "实验中怎样证明叶片需要光才能积累淀粉？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-094",
+    "theme": "植物的生活",
+    "title": "叶片与气孔功能",
+    "summary": "叶片气孔参与气体交换和水分散失，保卫细胞状态可影响气孔开闭；气孔的分布与开闭行为因植物及环境而异。",
+    "misconception": "气孔并非总在叶片上表面或始终完全敞开。",
+    "keywords": [
+      "气孔",
+      "保卫细胞",
+      "叶表皮"
+    ],
+    "guide_question": "干旱条件下气孔关闭可能带来哪些利弊？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-095",
+    "theme": "植物的生活",
+    "title": "影响光合速率的因素",
+    "summary": "光照强度、二氧化碳供应、温度等都可影响光合作用；研究单个因素时应尽量控制其他条件。",
+    "misconception": "气泡变多不一定只能归因于光强变化。",
+    "keywords": [
+      "光合速率",
+      "光照强度",
+      "二氧化碳浓度",
+      "控制变量"
+    ],
+    "guide_question": "同时调高温度和光照还能判断哪项起作用吗？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-096",
+    "theme": "植物的生活",
+    "title": "植物呼吸作用与气体交换",
+    "summary": "植物的活细胞不断进行细胞呼吸，分解有机物释放可用能量；光照条件改变会影响净气体交换表现。",
+    "misconception": "植物只有晚上才进行呼吸作用的说法错误。",
+    "keywords": [
+      "植物呼吸",
+      "细胞呼吸",
+      "呼吸作用"
+    ],
+    "guide_question": "白天植物既光合又呼吸，怎样理解气体交换？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-097",
+    "theme": "植物的生活",
+    "title": "蒸腾作用与环境因素",
+    "summary": "蒸腾指植物体内水分主要以水蒸气形式通过地上部分散失的过程，受光照、湿度、温度及风等因素影响。",
+    "misconception": "蒸腾不是植物把水无意义地浪费掉。",
+    "keywords": [
+      "蒸腾作用",
+      "湿度",
+      "风速",
+      "气孔"
+    ],
+    "guide_question": "天气干燥有风时，植物叶片失水可能怎样变化？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-098",
+    "theme": "植物的生活",
+    "title": "花的结构与受精",
+    "summary": "被子植物的花通常具有雄蕊和雌蕊等结构，传粉把花粉转移到柱头，受精使精细胞与卵细胞结合。",
+    "misconception": "传粉与受精不是同一过程。",
+    "keywords": [
+      "雄蕊",
+      "雌蕊",
+      "传粉",
+      "受精"
+    ],
+    "guide_question": "花粉到达柱头后就立刻形成种子了吗？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-099",
+    "theme": "植物的生活",
+    "title": "果实和种子的形成",
+    "summary": "被子植物完成受精后通常由子房发育成果实、胚珠发育成种子，但不同物种存在发育特点上的差异。",
+    "misconception": "种子通常不是直接由花瓣发育而来。",
+    "keywords": [
+      "子房",
+      "胚珠",
+      "果实形成",
+      "种子形成"
+    ],
+    "guide_question": "苹果中的种子主要由花的哪个结构发育？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-100",
+    "theme": "植物的生活",
+    "title": "有性生殖与无性繁殖",
+    "summary": "有性生殖涉及配子结合，营养繁殖等无性繁殖不经配子结合即可产生新个体；两种方式各有特点。",
+    "misconception": "扦插获得的新植株不是由种子萌发产生。",
+    "keywords": [
+      "有性生殖",
+      "无性生殖",
+      "扦插",
+      "嫁接"
+    ],
+    "guide_question": "扦插和播种繁殖方式有什么区别？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-101",
+    "theme": "植物的生活",
+    "title": "扦插与嫁接",
+    "summary": "扦插利用植物部分组织生根形成新个体，嫁接让接穗与砧木适当结合共同生长，均需要关注适宜物种与条件。",
+    "misconception": "嫁接不等于把两种植物的遗传物质自动融合。",
+    "keywords": [
+      "扦插",
+      "嫁接",
+      "接穗",
+      "砧木"
+    ],
+    "guide_question": "为什么嫁接时需要对齐形成层？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-102",
+    "theme": "植物的生活",
+    "title": "植物向光性与生长素",
+    "summary": "幼嫩植物器官可能向光弯曲生长，涉及生长素分布及细胞伸长的不均衡；具体反应还受组织类型等因素影响。",
+    "misconception": "植物向光生长不意味着它能像动物一样主动移动位置。",
+    "keywords": [
+      "生长素",
+      "向光性",
+      "植物向光",
+      "弯向光"
+    ],
+    "guide_question": "单侧光照下幼苗两侧的生长可能有何差异？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-103",
+    "theme": "植物的生活",
+    "title": "植物对重力的反应",
+    "summary": "植物根和茎对重力方向可表现不同生长反应，相关调节涉及植物激素信号与生长速率差异。",
+    "misconception": "根向下长不只是因为根更重而自然下垂。",
+    "keywords": [
+      "向地性",
+      "向重力性",
+      "根向下",
+      "茎向上"
+    ],
+    "guide_question": "把幼苗横放后，根和茎生长方向可能如何变化？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-104",
+    "theme": "植物的生活",
+    "title": "植物生活史与季节",
+    "summary": "一些植物生长、开花和休眠等活动与温度、日长、水分等环境变化有关，不同植物响应方式并不完全相同。",
+    "misconception": "所有植物都在同一季节开花结实的说法不准确。",
+    "keywords": [
+      "植物生活史",
+      "落叶",
+      "休眠",
+      "物候"
+    ],
+    "guide_question": "为什么有些植物春天发芽、秋天落叶？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-105",
+    "theme": "植物的生活",
+    "title": "叶片变色与叶绿素",
+    "summary": "季节条件变化可能使叶绿素分解速度超过合成，叶片中其他色素更加显现；叶色变化也受物种和环境影响。",
+    "misconception": "秋叶变黄不意味着叶子里原本没有黄色色素。",
+    "keywords": [
+      "秋叶",
+      "叶绿素",
+      "类胡萝卜素",
+      "叶片变黄",
+      "叶子变黄",
+      "秋天"
+    ],
+    "guide_question": "叶绿素减少后为什么更容易看见黄色？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-106",
+    "theme": "植物的生活",
+    "title": "科学探究中的阴性对照",
+    "summary": "植物实验中设置缺少待研究因素的条件有助于比较结果，但对照条件需与研究问题相匹配。",
+    "misconception": "设了两盆植物不代表一定构成有效对照。",
+    "keywords": [
+      "对照实验",
+      "阴性对照",
+      "植物实验"
+    ],
+    "guide_question": "研究光对萌发影响时两组应在哪一点不同？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-107",
+    "theme": "人体生理与健康",
+    "title": "营养物质与均衡饮食",
+    "summary": "人体需要蛋白质、糖类、脂肪、维生素、水和无机盐等多种营养素，合理饮食强调多样化和适宜摄入。",
+    "misconception": "某一种食物通常不能提供所有必要营养。",
+    "keywords": [
+      "营养素",
+      "均衡饮食",
+      "蛋白质",
+      "维生素"
+    ],
+    "guide_question": "为什么长期只吃一种食物可能产生问题？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-108",
+    "theme": "人体生理与健康",
+    "title": "淀粉在消化道的变化",
+    "summary": "淀粉等复杂碳水化合物需要通过消化酶分解才能更好地被吸收；唾液中的淀粉酶可开始分解部分淀粉。",
+    "misconception": "在口腔里食物被咀嚼不等于所有淀粉都消化完。",
+    "keywords": [
+      "淀粉酶",
+      "唾液",
+      "淀粉消化",
+      "馒头"
+    ],
+    "guide_question": "嚼馒头时间长有甜味可能与什么有关？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-109",
+    "theme": "人体生理与健康",
+    "title": "胃与消化",
+    "summary": "胃通过肌肉运动和胃液参与食物的加工与蛋白质初步消化，但营养物质的大量吸收主要发生在小肠。",
+    "misconception": "胃不是人体营养吸收的唯一或主要场所。",
+    "keywords": [
+      "胃液",
+      "胃",
+      "蛋白质消化"
+    ],
+    "guide_question": "为什么小肠比胃更适于吸收营养？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-110",
+    "theme": "人体生理与健康",
+    "title": "小肠绒毛与营养吸收",
+    "summary": "小肠内表面具有皱襞与绒毛结构，表面积较大，绒毛内具有毛细血管等，有利于已消化营养物质进入体内。",
+    "misconception": "小肠绒毛不是用来把食物机械磨碎的。",
+    "keywords": [
+      "小肠",
+      "小肠绒毛",
+      "吸收",
+      "毛细血管"
+    ],
+    "guide_question": "绒毛表面积大为何有利于吸收？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-111",
+    "theme": "人体生理与健康",
+    "title": "呼吸道与空气处理",
+    "summary": "鼻腔、咽、喉、气管和支气管等参与空气通行，呼吸道可对吸入空气进行一定程度的温暖、湿润及清洁。",
+    "misconception": "呼吸道清洁作用有限，不能让所有污染物完全消失。",
+    "keywords": [
+      "呼吸道",
+      "鼻腔",
+      "气管",
+      "支气管"
+    ],
+    "guide_question": "为什么鼻呼吸通常比直接张嘴吸入冷空气更有保护作用？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-112",
+    "theme": "人体生理与健康",
+    "title": "膈肌与呼吸运动",
+    "summary": "吸气时膈肌常收缩下移、胸腔容积增大，胸内气压变化帮助空气进入；呼气时相关变化通常相反。",
+    "misconception": "吸气不是肺自己主动像肌肉一样收缩把空气吸进来。",
+    "keywords": [
+      "吸气呼气",
+      "膈肌",
+      "胸腔容积"
+    ],
+    "guide_question": "吸气过程中膈肌位置如何变化？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-113",
+    "theme": "人体生理与健康",
+    "title": "肺泡结构与扩散",
+    "summary": "肺泡数目众多、壁薄，周围毛细血管丰富，有利于氧和二氧化碳通过扩散实现交换；气体由分压差推动。",
+    "misconception": "肺泡气体交换不等于氧气主动被肺泡泵进血液。",
+    "keywords": [
+      "肺泡",
+      "气体交换",
+      "扩散",
+      "毛细血管"
+    ],
+    "guide_question": "为什么肺泡壁和毛细血管壁薄有利于扩散？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-114",
+    "theme": "人体生理与健康",
+    "title": "氧气在血液中的运输",
+    "summary": "血红蛋白能够可逆结合氧，红细胞参与把氧从肺部输送到组织；氧含量变化受肺功能和循环等因素影响。",
+    "misconception": "血液中的氧不是全部以游离气体形式运输。",
+    "keywords": [
+      "红细胞",
+      "血红蛋白",
+      "血液供氧"
+    ],
+    "guide_question": "为什么红细胞不足可能影响组织供氧？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-115",
+    "theme": "人体生理与健康",
+    "title": "心脏的四个腔",
+    "summary": "人心脏分为左右心房与左右心室，心瓣膜有助于血液定向流动，左右两侧血流分别与肺循环和体循环有关。",
+    "misconception": "左右心室里的血液在正常情况下不直接混合。",
+    "keywords": [
+      "心房",
+      "心室",
+      "心瓣膜",
+      "四个腔"
+    ],
+    "guide_question": "为什么心脏需要瓣膜防止血液倒流？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-116",
+    "theme": "人体生理与健康",
+    "title": "肺循环与体循环",
+    "summary": "肺循环使血液在心脏与肺之间流动并进行气体交换，体循环将血液送至身体组织，两者相互衔接。",
+    "misconception": "肺动脉中通常流动的是含氧较低的静脉血。",
+    "keywords": [
+      "肺循环",
+      "体循环",
+      "肺动脉",
+      "动脉血"
+    ],
+    "guide_question": "为什么不能简单认为动脉里流的全是动脉血？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-117",
+    "theme": "人体生理与健康",
+    "title": "动脉静脉毛细血管",
+    "summary": "动脉将血液由心脏送往外周，静脉将血液送回心脏，毛细血管壁薄适于进行物质交换。",
+    "misconception": "动脉与静脉主要按血液流动方向命名，不按血液颜色命名。",
+    "keywords": [
+      "动脉",
+      "静脉",
+      "毛细血管"
+    ],
+    "guide_question": "肺静脉流向哪儿？里面通常是什么血？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-118",
+    "theme": "人体生理与健康",
+    "title": "血液的组成",
+    "summary": "血液主要由血浆和血细胞组成，血细胞包括红细胞、白细胞及血小板，分别参与多种运输、防御和凝血活动。",
+    "misconception": "血液不只包含红细胞。",
+    "keywords": [
+      "血浆",
+      "血细胞",
+      "白细胞",
+      "血小板"
+    ],
+    "guide_question": "身体擦伤后血小板参与了什么过程？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-119",
+    "theme": "人体生理与健康",
+    "title": "肾脏与尿液形成",
+    "summary": "肾脏的肾单位参与滤过与重吸收等过程，帮助排出部分代谢废物并调节体内水盐平衡。",
+    "misconception": "尿液并非血液中的所有有用物质都被直接排出。",
+    "keywords": [
+      "肾脏",
+      "肾单位",
+      "尿液",
+      "重吸收"
+    ],
+    "guide_question": "为什么正常肾脏会把大部分葡萄糖重新吸收？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-120",
+    "theme": "人体生理与健康",
+    "title": "皮肤与体温调节",
+    "summary": "皮肤通过汗液分泌、血管舒缩等过程参与散热，体温维持还与神经和激素等调节有关。",
+    "misconception": "出汗本身不等于身体立刻失去等量的热。",
+    "keywords": [
+      "皮肤",
+      "出汗",
+      "散热",
+      "体温"
+    ],
+    "guide_question": "汗液蒸发为什么有助于散热？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-121",
+    "theme": "人体生理与健康",
+    "title": "神经元与神经信号",
+    "summary": "神经元是神经系统的重要组成单位，能够接收并传递信息；不同神经元通过连接形成复杂的信息处理网络。",
+    "misconception": "神经元并不是简单的一根不分化的电线。",
+    "keywords": [
+      "神经元",
+      "神经细胞",
+      "神经系统"
+    ],
+    "guide_question": "手碰到热物体后信号怎样传递？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-122",
+    "theme": "人体生理与健康",
+    "title": "反射弧的组成",
+    "summary": "典型反射活动涉及感受器、传入神经、中枢、传出神经与效应器等环节；许多反射可快速完成。",
+    "misconception": "并非所有反射都需要先经过大脑皮层作出有意识决定。",
+    "keywords": [
+      "反射弧",
+      "感受器",
+      "效应器",
+      "缩手反射"
+    ],
+    "guide_question": "缩手反射和主动抬手在控制方式上有何区别？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-123",
+    "theme": "人体生理与健康",
+    "title": "视觉形成与视网膜",
+    "summary": "光线经角膜、晶状体等结构折射后在视网膜形成图像，感光细胞将光信息转化为神经信号并传向脑。",
+    "misconception": "在视网膜成像不等于视觉已经全部形成。",
+    "keywords": [
+      "眼球",
+      "晶状体",
+      "视网膜",
+      "视觉"
+    ],
+    "guide_question": "为什么眼睛看见的光信息还需要传到大脑？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-124",
+    "theme": "人体生理与健康",
+    "title": "听觉与耳的结构",
+    "summary": "外耳收集声波，鼓膜及听小骨参与传递振动，内耳毛细胞感受机械刺激并产生神经信号。",
+    "misconception": "声音不是通过空气直接进入大脑的。",
+    "keywords": [
+      "耳朵",
+      "鼓膜",
+      "听小骨",
+      "耳蜗"
+    ],
+    "guide_question": "耳机音量过大为什么可能伤害听力？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-125",
+    "theme": "人体生理与健康",
+    "title": "激素与神经调节",
+    "summary": "神经调节通常较迅速且定位较明确，激素可通过体液运输调节较多生理活动，两种系统共同维持机体稳态。",
+    "misconception": "激素并非都只在身体某一器官局部起作用。",
+    "keywords": [
+      "激素",
+      "神经调节",
+      "内分泌"
+    ],
+    "guide_question": "运动时心跳加快可能涉及哪些调节方式？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-126",
+    "theme": "人体生理与健康",
+    "title": "免疫系统的防御层次",
+    "summary": "皮肤和黏膜等构成重要的第一道防线，白细胞及特异性免疫等参与抵御病原体，免疫反应也可能过强。",
+    "misconception": "发炎不必然意味着免疫系统没有发挥作用。",
+    "keywords": [
+      "免疫系统",
+      "免疫反应",
+      "皮肤屏障"
+    ],
+    "guide_question": "为什么皮肤破损后更容易感染？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-127",
+    "theme": "人体生理与健康",
+    "title": "疫苗的作用机制",
+    "summary": "疫苗可通过安全设计的抗原刺激免疫系统形成免疫记忆，从而降低某些疾病的发病风险或严重程度，效果因疾病和疫苗而异。",
+    "misconception": "接种疫苗并不意味着百分之百不会感染。",
+    "keywords": [
+      "疫苗",
+      "免疫记忆",
+      "抗原抗体"
+    ],
+    "guide_question": "为什么一些疫苗需要按程序加强接种？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-128",
+    "theme": "人体生理与健康",
+    "title": "传染病传播链",
+    "summary": "传染病传播涉及传染源、传播途径和易感人群等环节，阻断传播可以从多个环节采取公共卫生措施。",
+    "misconception": "不是所有疾病都会在人与人之间传染。",
+    "keywords": [
+      "传染病",
+      "传染源",
+      "传播途径",
+      "易感人群"
+    ],
+    "guide_question": "洗手主要可以影响传播链中的哪个环节？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-129",
+    "theme": "人体生理与健康",
+    "title": "青春期与身体变化",
+    "summary": "青春期在激素调节下身体形态和生理功能发生变化，个体之间开始时间与变化速度存在正常差异。",
+    "misconception": "同龄学生的发育节奏不必完全一致。",
+    "keywords": [
+      "青春期",
+      "性激素",
+      "身体发育"
+    ],
+    "guide_question": "为什么不同人的青春期变化时间可能不同？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-130",
+    "theme": "人体生理与健康",
+    "title": "安全用药与健康信息",
+    "summary": "药物的作用、剂量与风险需要结合专业指导判断；抗菌药物主要针对敏感细菌，不用于解决所有病毒性疾病。",
+    "misconception": "不能因为一种药对别人有效就自行照搬使用。",
+    "keywords": [
+      "安全用药",
+      "抗生素",
+      "抗菌药",
+      "健康信息"
+    ],
+    "guide_question": "为什么感冒后不能自行长期使用抗生素？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-131",
+    "theme": "遗传与进化",
+    "title": "DNA与遗传信息",
+    "summary": "DNA是许多生物遗传信息的主要载体，其序列中的信息参与指导细胞功能与个体性状形成，遗传表现还与环境有关。",
+    "misconception": "并不是一种性状总由单个基因完全决定。",
+    "keywords": [
+      "dna",
+      "遗传信息",
+      "DNA结构"
+    ],
+    "guide_question": "同卵双胞胎为什么也可能存在外观差异？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-132",
+    "theme": "遗传与进化",
+    "title": "基因与染色体关系",
+    "summary": "基因通常是DNA上具有特定功能的片段，真核细胞染色体主要由DNA和蛋白质构成，同一条染色体上有多个基因。",
+    "misconception": "基因不是独立漂浮在细胞中的小颗粒。",
+    "keywords": [
+      "基因",
+      "染色体",
+      "DNA",
+      "遗传物质"
+    ],
+    "guide_question": "为什么一个细胞里可以存在许多不同基因？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-133",
+    "theme": "遗传与进化",
+    "title": "有丝分裂与遗传稳定",
+    "summary": "体细胞有丝分裂通常使遗传物质复制后较平均地分配到子细胞，有助于维持同一生物体内许多细胞遗传信息的连续性。",
+    "misconception": "细胞分裂不是先把染色体随意分给两个细胞。",
+    "keywords": [
+      "有丝分裂",
+      "DNA复制",
+      "染色体复制"
+    ],
+    "guide_question": "细胞分裂前为什么要复制DNA？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-134",
+    "theme": "遗传与进化",
+    "title": "生殖细胞与减数分裂",
+    "summary": "有性生殖物种通常通过减数分裂产生染色体数目减半的配子，受精使合子恢复该物种正常的染色体组合。",
+    "misconception": "精子和卵细胞的染色体数并不是普通体细胞的完整两倍。",
+    "keywords": [
+      "减数分裂",
+      "生殖细胞",
+      "配子",
+      "受精"
+    ],
+    "guide_question": "为什么配子结合后染色体数目不会逐代翻倍？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-135",
+    "theme": "遗传与进化",
+    "title": "显性与隐性性状",
+    "summary": "某些单基因性状可用显性与隐性等概念解释，但真实遗传存在更复杂情况；显性不意味着更常见或更优秀。",
+    "misconception": "显性基因不是一定在群体里出现得最多。",
+    "keywords": [
+      "显性性状",
+      "隐性性状",
+      "显隐性",
+      "显性不常见"
+    ],
+    "guide_question": "显性性状是否一定比隐性性状更有利？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-136",
+    "theme": "遗传与进化",
+    "title": "遗传与环境共同作用",
+    "summary": "身高等许多性状受到多个基因及营养、健康等环境因素共同影响，不能把观察到的差异完全归因于遗传。",
+    "misconception": "有遗传影响不意味着环境对性状完全无效。",
+    "keywords": [
+      "遗传环境",
+      "身高",
+      "多基因性状"
+    ],
+    "guide_question": "为什么同卵双胞胎在不同环境成长可能有所不同？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-137",
+    "theme": "遗传与进化",
+    "title": "变异的来源",
+    "summary": "变异既可能来自遗传物质改变或重组，也可能来自环境影响，有些变异能够遗传，有些不能。",
+    "misconception": "后天锻炼长出的肌肉通常不直接遗传给子代。",
+    "keywords": [
+      "可遗传变异",
+      "不可遗传变异",
+      "突变"
+    ],
+    "guide_question": "为什么日晒变黑一般不能直接传给孩子？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-138",
+    "theme": "遗传与进化",
+    "title": "自然选择与群体演化",
+    "summary": "当不同遗传变异影响生存和繁殖成功率时，群体中相关遗传特征的频率可能随世代改变；自然选择作用于已有差异。",
+    "misconception": "生物并非因为有意愿才定向产生某个需要的突变。",
+    "keywords": [
+      "自然选择",
+      "适者生存",
+      "群体演化"
+    ],
+    "guide_question": "抗药性细菌如何在药物选择下更常见？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-139",
+    "theme": "遗传与进化",
+    "title": "化石与演化证据",
+    "summary": "化石能够提供过去生物形态和生存环境的信息，与比较解剖及分子证据结合可帮助重建演化历史。",
+    "misconception": "化石记录并不连续，不是所有生物都能成为化石。",
+    "keywords": [
+      "化石",
+      "演化证据",
+      "地层"
+    ],
+    "guide_question": "怎样通过不同地层化石推测生物变化？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-140",
+    "theme": "遗传与进化",
+    "title": "同源结构与亲缘关系",
+    "summary": "不同生物一些器官来源于共同祖先的结构即使功能不同，也可能表现基本骨骼排列上的相似，帮助理解演化关系。",
+    "misconception": "用途相同的结构不一定有共同演化起源。",
+    "keywords": [
+      "同源结构",
+      "共同祖先",
+      "鲸前肢"
+    ],
+    "guide_question": "人的手臂和鲸的前肢骨骼为何存在相似性？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-141",
+    "theme": "遗传与进化",
+    "title": "物种形成的基本观念",
+    "summary": "不同种群在长期隔离、遗传变化和选择等作用下可能形成生殖隔离，最终发展为新的物种，过程依物种而异。",
+    "misconception": "新物种的形成通常不是某一个体突然变成另一物种。",
+    "keywords": [
+      "物种形成",
+      "生殖隔离",
+      "地理隔离"
+    ],
+    "guide_question": "长期隔离的种群为什么可能逐渐产生差异？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-142",
+    "theme": "遗传与进化",
+    "title": "生物进化不等于进步阶梯",
+    "summary": "生物演化并不沿着从低等到高等的单一阶梯前进，现存各类生物都经历了漫长演化并适应各自环境。",
+    "misconception": "把现存细菌称为人类的直接祖先是不准确的。",
+    "keywords": [
+      "进化",
+      "演化树",
+      "进化阶梯",
+      "猴子",
+      "人类起源"
+    ],
+    "guide_question": "为什么今天的细菌没有都变成人类？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-143",
+    "theme": "遗传与进化",
+    "title": "人工选择与育种",
+    "summary": "人类可以挑选具有期望性状的个体进行繁殖，长期选择使栽培植物和家养动物产生明显变化。",
+    "misconception": "人工选择不是直接把所有后代表现改成预想结果。",
+    "keywords": [
+      "人工选择",
+      "选择育种",
+      "家养动物"
+    ],
+    "guide_question": "白菜和甘蓝的不同品种与人工选择有什么联系？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-144",
+    "theme": "遗传与进化",
+    "title": "遗传病与风险认识",
+    "summary": "一些疾病与遗传因素有关，但遗传风险不等于个体必定患病，疾病发生还可能受环境和其他因素影响。",
+    "misconception": "携带风险变异不等于可以仅凭一条信息作出疾病诊断。",
+    "keywords": [
+      "遗传病",
+      "遗传风险",
+      "家族史"
+    ],
+    "guide_question": "为什么有家族病史也需要专业评估？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-145",
+    "theme": "遗传与进化",
+    "title": "基因检测与隐私",
+    "summary": "遗传检测可能提供部分个体特征或健康风险线索，但涉及准确性、解释限制和个人隐私，需要谨慎授权使用。",
+    "misconception": "基因检测结果不能自动决定一个人的全部命运。",
+    "keywords": [
+      "基因检测",
+      "遗传隐私",
+      "伦理"
+    ],
+    "guide_question": "为什么公开他人的基因检测信息存在隐私问题？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-146",
+    "theme": "遗传与进化",
+    "title": "性别决定与生物差异",
+    "summary": "在人类典型情况下，性染色体组合与性发育密切相关，但性发育过程具有生物学复杂性，不能把所有人的个体情况简单套入一种模式。",
+    "misconception": "不能因为遗传系统常见某种模式就否认自然存在的生物差异。",
+    "keywords": [
+      "性染色体",
+      "性别决定",
+      "性发育"
+    ],
+    "guide_question": "为什么课堂解释遗传规律需要区分常见情况和例外？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-147",
+    "theme": "遗传与进化",
+    "title": "遗传数据与证据推理",
+    "summary": "分析遗传现象应基于多个家系信息或统计数据，区分观察到的相关性与真正导致性状的机制。",
+    "misconception": "一次家庭观察不足以证明所有人的性状规律。",
+    "keywords": [
+      "遗传分析",
+      "家系",
+      "证据推理"
+    ],
+    "guide_question": "为什么不能用一个家庭的表现推断全人类遗传规律？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-148",
+    "theme": "生物学与社会·跨学科实践",
+    "title": "校园生物多样性调查设计",
+    "summary": "校园生物调查需要明确范围、时间、记录方式和安全规范，可结合样线或样方等方法对不同生境进行比较。",
+    "misconception": "只观察一处最热闹的绿地不能代表整个校园。",
+    "keywords": [
+      "校园调查",
+      "样线",
+      "样方",
+      "生境",
+      "生物多样性调查"
+    ],
+    "guide_question": "如何比较操场边和花坛里的植物种类？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-149",
+    "theme": "生物学与社会·跨学科实践",
+    "title": "发酵食品的科学原理",
+    "summary": "制作面包、酸奶等食品利用不同微生物的代谢活动，合适的温度和卫生条件会影响生产质量。",
+    "misconception": "所有发酵食品并非由同一种微生物完成。",
+    "keywords": [
+      "发酵",
+      "酵母",
+      "乳酸菌",
+      "面包酸奶"
+    ],
+    "guide_question": "面包和酸奶分别通常利用什么微生物？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-150",
+    "theme": "生物学与社会·跨学科实践",
+    "title": "食物保存与微生物控制",
+    "summary": "低温、干燥、密封和加热等可以在不同程度上限制某些微生物活动；实际食品安全还受原料与加工卫生等影响。",
+    "misconception": "冰箱冷藏不能保证食物永久不变质。",
+    "keywords": [
+      "食品保存",
+      "冷藏",
+      "食品安全",
+      "防腐",
+      "冰箱",
+      "食物变质"
+    ],
+    "guide_question": "为什么冷藏食物仍有保质期？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-151",
+    "theme": "生物学与社会·跨学科实践",
+    "title": "饮用水安全调查",
+    "summary": "校园饮水问题可从水源、处理方式和卫生管理等方面开展资料调查，评价水质需要符合规范的检测证据。",
+    "misconception": "透明无色并不意味着饮用水一定安全。",
+    "keywords": [
+      "饮用水",
+      "水质",
+      "安全饮水"
+    ],
+    "guide_question": "为什么不能只用肉眼判断一杯水能否饮用？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-152",
+    "theme": "生物学与社会·跨学科实践",
+    "title": "生态友好校园方案",
+    "summary": "减少一次性用品、合理回收和保护校园生境可以构成可评价的行动方案，方案需同时考虑资源投入和实际效果。",
+    "misconception": "提出环保口号不等于已经证明取得环保成效。",
+    "keywords": [
+      "低碳校园",
+      "减塑",
+      "垃圾分类",
+      "校园环保"
+    ],
+    "guide_question": "如何用可记录的指标评价校园减塑活动？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  },
+  {
+    "id": "BIO-153",
+    "theme": "生物学与社会·跨学科实践",
+    "title": "科学信息的来源核验",
+    "summary": "判断网络生物或健康信息时应核对出处、日期、证据类型和是否有可重复研究，不把单一传播热度当作证据。",
+    "misconception": "被大量转发不等于科学上已经证实。",
+    "keywords": [
+      "科学信息",
+      "信息核验",
+      "生物谣言",
+      "网络",
+      "真假",
+      "冷知识"
+    ],
+    "guide_question": "一条所谓生物冷知识应怎样查证来源？",
+    "source_title": "原创课程概要（待学科教师逐条复核）",
+    "curriculum_reference": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+    "grade": "初中",
+    "review_status": "待教师审核",
+    "source_scope": "课程主题参考，不等于本卡事实逐条来源"
+  }
+]

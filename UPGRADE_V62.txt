@@ -1,0 +1,18 @@
+BioHPS V6.2 Windows 升级（不需要重配DeepSeek）
+1. 停止旧版：在旧PowerShell按 Ctrl+C。
+2. 备份 F盘原项目 BioHPS_project 文件夹。
+3. 解压完整项目包，进入 BioHPS_V6_2_课程知识增强版 文件夹。
+4. 复制里面全部文件和子文件夹，粘贴到原 BioHPS_project 文件夹，覆盖同名文件。
+   千万不要遗漏 retrieval_index.py、curriculum.py、app.py 和整个 knowledge 文件夹。
+   不要删除旧 .venv 及 .streamlit/secrets.toml（里面有你的密钥）。
+5. 回到原项目 PowerShell，依次运行：
+   Test-Path .\retrieval_index.py
+   Test-Path .\knowledge\curriculum_cards.json
+   .\.venv\Scripts\python.exe tools\audit_knowledge.py
+   .\.venv\Scripts\python.exe tools\evaluate_retrieval.py
+   .\.venv\Scripts\python.exe -m streamlit run app.py
+6. 浏览器进入 http://localhost:8501，选择“💬 全课程AI课堂”，保持自动识别。
+7. 依次测试“为什么秋天叶子会变黄？”、“鲸为什么不是鱼？”和“肺泡怎样交换气体？”
+
+注意：153张课程卡是研发阶段编写的原创知识概要，仍待专业教师审核。
+离线检索测试不产生API费用；点击“发送给AI”会实际调用DeepSeek并可能收费。
