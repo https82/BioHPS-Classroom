@@ -11,19 +11,33 @@ def read_config(key, default=""):
         return os.getenv(key, default)
 
 
+def _configured_value(value):
+    value=str(value or '').strip()
+    return bool(value) and not any(mark in value.lower() for mark in (
+        '请填写','请填入','your_api_key','your-model','example_api_key','placeholder'))
+
+
+def config_status():
+    keys={'BIOHPS_API_BASE':'API地址','BIOHPS_MODEL':'模型名称','BIOHPS_API_KEY':'API密钥'}
+    missing=[label for key,label in keys.items() if not _configured_value(read_config(key,''))]
+    return {'ready':not missing,'missing_labels':missing}
+
+
 def call_ai(messages, requester=None):
     key = read_config('BIOHPS_API_KEY')
-    base = read_config('BIOHPS_API_BASE').rstrip('/')
-    model = read_config('BIOHPS_MODEL')
-    if not (key and base and model):
+    base = str(read_config('BIOHPS_API_BASE','') or '').strip().rstrip('/')
+    model = str(read_config('BIOHPS_MODEL','') or '').strip()
+    if not all(_configured_value(value) for value in (key,base,model)):
         return {'ok': False, 'error': '未配置完整的API参数', 'model': None, 'text': '', 'tokens': None}
     if not base.startswith('https://'):
         return {'ok': False, 'error': 'API必须使用HTTPS地址', 'model': None, 'text': '', 'tokens': None}
     try:
         post = requester or requests.post
-        response = post(base+'/chat/completions',
+        endpoint=base if base.endswith('/chat/completions') else base+'/chat/completions'
+        response = post(endpoint,
             headers={'Authorization':'Bearer '+key,'Content-Type':'application/json'},
-            json={'model': model,'messages': messages, 'max_tokens': 2200}, timeout=85)
+            json={'model': model, 'messages': messages, 'max_tokens': 3000,
+                  'thinking': {'type': 'disabled'}}, timeout=85)
         if not response.ok:
             hints={400:'请求参数不兼容',401:'API密钥无效',402:'余额不足',403:'调用权限不足',404:'模型不可用',429:'触发额度或频率限制',503:'服务提供方不可用'}
             return {'ok':False,'error':f'HTTP {response.status_code} · '+hints.get(response.status_code,'服务请求失败'),'model':model,'text':'','tokens':None}

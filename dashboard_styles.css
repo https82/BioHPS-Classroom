@@ -1,0 +1,372 @@
+/* BioHPS desktop-first dashboard. Streamlit stays fully functional and responsive. */
+:root{--bio-ink:#17372f;--bio-green:#12986a;--bio-border:#e2eae5;--bio-muted:#7c8c83;--bio-bg:#f7f9f8}
+[data-testid="stAppViewContainer"]{background:#f8faf9!important}
+[data-testid="stMainBlockContainer"]{padding:1.45rem 2rem 4rem!important;max-width:none!important}
+.block-container{max-width:1600px!important;padding-top:1.3rem!important;padding-bottom:3rem!important}
+header[data-testid="stHeader"]{background:#f8faf9!important;border-bottom:1px solid #e6eee8;min-height:35px!important}
+[data-testid="stSidebar"]{background:#fff!important;border-right:1px solid var(--bio-border)!important;min-width:248px!important;max-width:270px!important}
+[data-testid="stSidebar"]>div:first-child{padding-top:1.2rem!important}
+[data-testid="stSidebar"] [data-testid="stMarkdownContainer"] p{margin:0}
+[data-testid="stSidebar"] [role="radiogroup"]{gap:4px}
+[data-testid="stSidebar"] [role="radiogroup"] label{
+  padding:9px 12px!important;margin:0!important;border-radius:10px!important;
+  background:transparent!important;border:1px solid transparent!important;
+  color:#496258!important;transition:background .15s ease
+}
+[data-testid="stSidebar"] [role="radiogroup"] label:has(input:checked){background:#e9f7ef!important;color:#067349!important;border-color:#c2ead4!important;font-weight:700!important}
+[data-testid="stSidebar"] [role="radiogroup"] label:hover{background:#f0f8f4!important}
+[data-testid="stSidebar"] [data-testid="stRadio"] input[type="radio"]{accent-color:#139c71}
+[data-testid="stSidebar"] [data-testid="stRadio"] >label{font-size:11px!important;letter-spacing:.4px;color:#7b9084}
+[data-testid="stSidebar"] [data-testid="stSelectbox"] label{font-size:12px;color:#6b7e72}
+[data-testid="stSidebar"] [data-testid="stElementContainer"]{margin-bottom:0}
+.db-logo{display:flex;align-items:center;gap:12px;padding:3px 0 14px;color:#123a2e}
+.db-logo-mark{background:linear-gradient(145deg,#24b783,#09865d);border-radius:12px;width:42px;height:42px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:23px;box-shadow:0 6px 15px #238d6940}
+.db-logo-title{font-size:19px;font-weight:800;letter-spacing:.4px;line-height:1.2}
+.db-logo-sub{font-size:11px;color:#8d9b92;margin-top:4px}
+.db-side-rule{height:1px;background:#e7eee9;margin:14px 0}
+.db-side-caption{color:#90a097;font-size:11px;letter-spacing:1.4px;font-weight:800;margin:2px 0 8px}
+.db-sidebar-foot{border-radius:12px;background:#f3f9f5;border:1px solid #e4f1e8;padding:13px;color:#547569;font-size:12px;line-height:1.7;margin-top:15px}
+/* Top bar: never hides teacher switch behind the sidebar */
+.db-toprow{background:#fff;border:1px solid var(--bio-border);border-radius:14px;box-shadow:0 3px 12px #1b634508;padding:10px 15px;min-height:64px;margin:1px 0 20px;}
+.db-toplabel{font-size:13px;color:#84968b;font-weight:650;line-height:1.35}
+.db-topname{font-size:17px;color:#1b4436;font-weight:800;line-height:1.45}
+.db-topdate{color:#657a6f;font-size:12px;white-space:nowrap;line-height:2.4}
+.db-toprow .stButton button{border-radius:9px!important}
+/* General content blocks */
+.db-hero{border:1px solid #bfe5d4;border-radius:20px;background:linear-gradient(113deg,#e9f8ef 0%,#f2fbf6 54%,#e0f6eb 100%);padding:29px 34px;min-height:215px;position:relative;overflow:hidden;box-shadow:0 6px 20px #0b764b08}
+.db-hero-teacher{background:linear-gradient(113deg,#e7f5f0,#f6faf8 63%,#e6f4ed)}
+.db-kicker{font-size:12px;font-weight:800;color:#11986e;letter-spacing:1.2px}
+.db-hero h1{color:#173e30!important;font-size:clamp(25px,2.2vw,35px)!important;line-height:1.35!important;margin:15px 0 13px!important;font-weight:830!important;max-width:760px}
+.db-hero p{color:#527368;line-height:1.75;font-size:14px;max-width:680px;position:relative;z-index:1}
+.db-hero-watermark{position:absolute;right:6%;bottom:-80px;transform:rotate(-10deg);color:#caecd9;font-size:285px;line-height:1;pointer-events:none}
+.db-stat{position:relative;border:1px solid var(--bio-border);border-radius:16px;background:#fff;padding:18px 20px;min-height:155px;box-shadow:0 4px 18px #145d3510}
+.db-stat-icon{width:31px;height:31px;border-radius:9px;background:#e8f8ee;color:#138f62;display:flex;align-items:center;justify-content:center;font-size:17px;margin-bottom:8px}
+.db-stat-label{font-size:12px;font-weight:650;color:#779084}
+.db-stat-number{font-size:30px;font-weight:840;color:#163c2e;line-height:1.35;font-variant-numeric:tabular-nums}
+.db-stat-note{font-size:11px;color:#8b9c92;margin-top:7px}
+.db-panel{border:1px solid var(--bio-border);border-radius:17px;background:#fff;padding:20px 22px;box-shadow:0 4px 16px #145d3510;min-height:100%;box-sizing:border-box}
+.db-panel-title{font-size:17px;color:#1b4335;font-weight:800;margin:0 0 10px}
+.db-panel-desc{color:#86978d;font-size:12px;line-height:1.6;margin:0 0 10px}
+.db-section-title{font-size:21px;font-weight:800;color:#153f2e;margin:19px 0 12px}
+.db-course-tile{border:1px solid #dfebe4;background:white;border-radius:14px;padding:17px 19px;margin-bottom:11px;box-shadow:0 2px 10px #145d3507}
+.db-course-tag{font-size:11px;font-weight:750;color:#138d63;background:#e8f7ee;border-radius:999px;padding:4px 10px;display:inline-block;margin-bottom:10px}
+.db-course-title{font-size:17px;font-weight:800;color:#1e4637;margin-bottom:7px}
+.db-course-desc{color:#73887c;font-size:12px;line-height:1.65}
+.db-empty{border:1px dashed #d4e7da;background:#f9fcfa;padding:19px;border-radius:12px;color:#82978b;font-size:13px;line-height:1.7}
+/* 7-day real history */
+.db-activity-chart{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:10px;height:157px;align-items:end;margin-top:18px}
+.db-activity-col{display:flex;align-items:center;flex-direction:column;justify-content:flex-end;height:100%;gap:5px}
+.db-activity-value{font-size:11px;color:#597768;font-variant-numeric:tabular-nums}
+.db-activity-track{background:#eef4f0;border-radius:8px 8px 2px 2px;width:100%;max-width:37px;height:112px;position:relative;display:flex;align-items:end;overflow:hidden}
+.db-activity-fill{width:100%;background:linear-gradient(#42c792,#159e6b);border-radius:8px 8px 2px 2px;min-height:0}
+.db-activity-day{font-size:11px;color:#829288;white-space:nowrap}
+/* Gauge: only uses actual recorded attempts */
+.db-gauge{width:160px;height:160px;border-radius:50%;background:conic-gradient(#1aab79 var(--progress),#e8f2eb 0);margin:21px auto 13px;padding:14px;box-sizing:border-box}
+.db-gauge-center{width:100%;height:100%;background:white;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-direction:column}
+.db-gauge-center strong{font-size:27px;font-weight:850;color:#174c36}
+.db-gauge-center span{font-size:12px;color:#7d9486;margin-top:3px}
+.db-gauge-note{color:#83998b;text-align:center;font-size:12px;margin:8px 0 0}
+.db-calendar-month{font-size:16px;color:#1d583d;font-weight:770;display:flex;justify-content:space-between;align-items:center;margin:8px 0 13px}
+.db-calendar-month span{font-size:11px;font-weight:500;color:#85a091}
+.db-calendar-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:5px;text-align:center}
+.db-cal-day,.db-cal-weekday{height:29px;display:flex;justify-content:center;align-items:center;color:#566e60;font-size:12px;border-radius:7px}
+.db-cal-weekday{font-size:11px;font-weight:760;color:#93a69b}
+.db-cal-current{background:#10a46f!important;color:#fff!important;font-weight:800}
+.db-cal-muted{opacity:0}
+.db-progress-line{margin:15px 0 17px}
+.db-progress-top{display:flex;justify-content:space-between;gap:7px;font-size:13px;color:#435d4f}
+.db-progress-top b{font-variant-numeric:tabular-nums;color:#158a61}
+.db-progress-track{width:100%;height:8px;background:#edf3ee;border-radius:999px;overflow:hidden;margin:9px 0 5px}
+.db-progress-fill{background:linear-gradient(90deg,#14b381,#0a9669);height:100%;border-radius:999px}
+.db-progress-hint{font-size:11px;color:#9ba99e}
+.db-issue{margin:17px 0}
+.db-issue-head{display:flex;justify-content:space-between;align-items:center;gap:12px;font-size:13px;color:#426454}
+.db-issue-head b{color:#208c65}
+/* Spacing between stacked dashboard sections */
+.db-topgap{height:15px}
+.db-navhelp{display:inline-flex;gap:8px;align-items:center;color:#7a9585;font-size:12px}
+@media (min-width:1150px){[data-testid="stMainBlockContainer"]{padding-left:2.4rem!important;padding-right:2.4rem!important}}
+@media (max-width:900px){
+ [data-testid="stSidebar"]{min-width:auto!important}
+ [data-testid="stMainBlockContainer"]{padding:1rem!important}
+ .block-container{padding-left:.5rem!important;padding-right:.5rem!important}
+ .db-hero{padding:22px!important;min-height:150px}
+ .db-hero-watermark{font-size:165px;bottom:-35px}
+ .db-stat{padding:14px;min-height:132px}
+ .db-stat-number{font-size:25px}
+ .db-panel{padding:15px}
+}
+
+/* Native Streamlit toolbar container mirrors the dashboard reference screenshot. */
+[data-testid="stVerticalBlockBorderWrapper"]:has(.db-topname){background:#fff!important;border:1px solid var(--bio-border)!important;border-radius:16px!important;box-shadow:0 3px 12px #1b634508!important;padding:7px 15px!important;margin-bottom:14px!important}
+
+
+/* ===== BioHPS V10.9 — multi-tonal, desktop-oriented visual system ===== */
+:root {
+  --bio-ink:#1f2937;
+  --bio-green:#0d8e80;
+  --bio-border:#e4e9f2;
+  --bio-muted:#64748b;
+  --bio-bg:#f6f8fc;
+  --bio-sky:#3c79c4;
+  --bio-violet:#7663bc;
+  --bio-amber:#b67a24;
+  --bio-rose:#b96570;
+}
+[data-testid="stAppViewContainer"]{background:#f6f8fc!important}
+header[data-testid="stHeader"]{background:#f6f8fc!important}
+[data-testid="stMainBlockContainer"]{background:#f6f8fc!important;padding:1.1rem 2.05rem 4rem!important}
+.block-container{max-width:1600px!important;padding-top:1rem!important}
+[data-testid="stSidebar"]{background:#fff!important;border-right:1px solid #e8eaf1!important}
+[data-testid="stSidebar"] [role="radiogroup"] label:has(input:checked){
+  background:#eaf2fc!important;color:#235b94!important;border-color:#d6e4f7!important}
+[data-testid="stSidebar"] [role="radiogroup"] label:hover{background:#f1f5fc!important}
+.db-logo-title,.db-topname{color:#202f43!important}
+.db-logo-mark{background:linear-gradient(140deg,#197d85,#5085ca)!important;box-shadow:0 7px 15px #3e78a029!important}
+.db-sidebar-foot{background:#f4f6fa!important;border-color:#e6eaf2!important;color:#63788d!important}
+.db-topname{font-size:17px}
+.db-toplabel{color:#8291a8}
+.db-topdate{background:#f1f5fb;border:1px solid #e8edf5;border-radius:10px;text-align:center;line-height:2.65;color:#57708c}
+.db-tophelper{color:#778ba0;font-size:12px;white-space:nowrap;line-height:2.6}
+[data-testid="stVerticalBlockBorderWrapper"]:has(.db-topname){
+ background:white!important;border:1px solid #e2e7f0!important;border-radius:17px!important;
+ box-shadow:0 7px 27px #2f42670b!important;padding:8px 15px 3px!important;margin-bottom:14px!important
+}
+/* Top role picker and page jumper are actual controls, always accessible. */
+[data-testid="stVerticalBlockBorderWrapper"]:has(.db-topname) [data-testid="stSelectbox"]{
+ min-width:0
+}
+[data-testid="stVerticalBlockBorderWrapper"]:has(.db-topname) button{
+ border-radius:9px!important;font-weight:650!important
+}
+.db-hero{
+ border:1px solid #d8e5f4!important;
+ background:linear-gradient(117deg,#eaf4fc 0%,#edf8f7 52%,#f1f0fc 100%)!important;
+ box-shadow:0 8px 25px #39557c0b!important;min-height:205px
+}
+.db-hero-teacher{
+ border-color:#e0dff4!important;
+ background:linear-gradient(110deg,#f2effd 0%,#f3f7fd 58%,#e8f5f7 100%)!important
+}
+.db-hero h1{color:#20364f!important}
+.db-hero p{color:#657b90!important}
+.db-hero-watermark{color:#d2dff8!important}
+.db-hero-teacher .db-hero-watermark{color:#dcd4f5!important}
+.db-kicker{color:#387ca1!important}
+.db-stat{border-color:#e5eaf2!important;box-shadow:0 7px 20px #2c42640b!important;background:#fff}
+.db-stat-icon{background:#e8f1fa;color:#387ac2}
+.db-stat-sky .db-stat-icon{background:#e8f1ff;color:#3279bd}
+.db-stat-teal .db-stat-icon{background:#e2f5f0;color:#188e82}
+.db-stat-violet .db-stat-icon{background:#eee9fc;color:#7860bd}
+.db-stat-amber .db-stat-icon{background:#fff1db;color:#ae7524}
+.db-stat-rose .db-stat-icon{background:#ffeaed;color:#bd6470}
+.db-stat-sky{border-top:3px solid #a9ccf2!important}
+.db-stat-teal{border-top:3px solid #9edecf!important}
+.db-stat-violet{border-top:3px solid #c7b5ef!important}
+.db-stat-amber{border-top:3px solid #f4d3a1!important}
+.db-stat-rose{border-top:3px solid #edb6be!important}
+.db-stat-label{color:#6e7f98}
+.db-stat-number{color:#23364c!important}
+.db-stat-note{color:#91a0af}
+.db-panel{border-color:#e4e9f2!important;box-shadow:0 7px 19px #2e42630a!important}
+.db-panel-title{color:#243951!important}
+.db-section-title{color:#23384f!important}
+.db-course-title{color:#234e62!important}
+.db-course-tile{border-color:#e1e8f1!important;box-shadow:0 4px 16px #2d48610a!important}
+.db-course-tag{color:#3e6ba3!important;background:#eaf2fd!important}
+.db-calendar{border-top:4px solid #a6bde8!important;background:linear-gradient(#f9fbff,#fff 35%)!important}
+.db-calendar-month{color:#355979!important}
+.db-cal-current{background:#5381ca!important}
+.db-panel-activity{border-top:4px solid #a5c9f0!important}
+.db-activity-fill{background:linear-gradient(#71a6ee,#3872c4)!important}
+.db-panel-performance{border-top:4px solid #c3b0ed!important}
+.db-gauge{background:conic-gradient(#7c69c5 var(--progress),#eee9f7 0)!important}
+.db-gauge-center strong{color:#5c4b9d!important}
+.db-progress-fill{background:linear-gradient(90deg,#4f91c9,#8275ca)!important}
+/* Three aligned learning actions are deliberately above the statistics. */
+.db-quick-heading{margin:12px 0 9px!important;font-size:18px!important}
+.db-quick-card{border:1px solid #dfe7f2;border-radius:15px;padding:16px 17px;
+ display:grid;grid-template-columns:42px 1fr;grid-template-rows:auto auto;align-content:center;
+ gap:2px 11px;height:119px;box-sizing:border-box;box-shadow:0 5px 15px #354d6809}
+.db-quick-icon{grid-row:1/span 2;width:41px;height:41px;border-radius:12px;
+ display:flex;align-items:center;justify-content:center;font-size:21px}
+.db-quick-title{font-size:17px;font-weight:800;color:#263b52;align-self:end}
+.db-quick-sub{font-size:12px;line-height:1.55;color:#60748c;align-self:start}
+.db-quick-course{background:linear-gradient(110deg,#eef5ff,#f9fbff)!important;border-color:#dbe8fa!important}
+.db-quick-course .db-quick-icon{background:#dceafe}
+.db-quick-hps{background:linear-gradient(110deg,#ecfaf7,#f9fefd)!important;border-color:#d5eee6!important}
+.db-quick-hps .db-quick-icon{background:#d9f3ed}
+.db-quick-ai{background:linear-gradient(110deg,#f5f0ff,#fcfaff)!important;border-color:#e8ddf7!important}
+.db-quick-ai .db-quick-icon{background:#eae0fa}
+.db-quick-card + div{margin-top:6px}
+/* Calm accents for the independent student/teacher work zones. */
+.db-empty{background:#f7f9fd!important;border-color:#d7e2ee!important;color:#708398!important}
+.stButton button[kind="primary"]{background:#1f7994!important;border-color:#1f7994!important;color:white!important}
+.stButton button[kind="primary"]:hover{background:#155c79!important;border-color:#155c79!important}
+[data-testid="stChatMessage"]{border-color:#e0e6f2!important}
+[data-testid="stMetric"]{background:#fff!important;border-color:#e2e7f0!important}
+@media (max-width:950px){
+ [data-testid="stMainBlockContainer"]{padding:.8rem 1rem 3rem!important}
+ .db-quick-card{height:114px;padding:12px;grid-template-columns:34px 1fr}
+ .db-quick-icon{width:32px;height:32px;font-size:16px}
+ .db-quick-title{font-size:15px}
+ .db-quick-sub{font-size:11px}
+ .db-hero{min-height:170px}
+ .db-topdate{font-size:11px}
+}
+
+/* Distinct, restrained education work areas. */
+.db-panel-issues{border-top:4px solid #edc998!important;background:linear-gradient(#fffdf8,#fff 30%)!important}
+.db-panel-questions{border-top:4px solid #a9cee8!important}
+.db-panel-prep{border-top:4px solid #c9b5e9!important;background:linear-gradient(#fbf9ff,#fff 40%)!important}
+.db-issue-head b{color:#b96e4d!important}
+.db-issue .db-progress-fill{background:linear-gradient(90deg,#eab371,#d88874)!important}
+@media(min-width:1150px){
+  [data-testid="stVerticalBlockBorderWrapper"]:has(.db-topname) .stButton button{min-height:37px!important}
+}
+
+/* V10.10: both stages remain discoverable on every student desktop page. */
+.db-stage-heading{font-size:14px;font-weight:800;color:#29425f;margin:14px 0 8px}
+.db-stage-heading span{font-size:12px;font-weight:500;color:#8293aa;margin-left:12px}
+.db-all-stage{display:inline-flex;align-items:center;justify-content:center;min-height:35px;
+ border-radius:10px;background:#edf2fa;border:1px solid #dbe5f2;color:#486482;
+ font-size:13px;font-weight:750;white-space:nowrap;padding:4px 10px}
+[data-testid="stVerticalBlockBorderWrapper"]:has(.db-topname) [data-testid="stSegmentedControl"]{
+ min-width:0!important}
+[data-testid="stVerticalBlockBorderWrapper"]:has(.db-topname) [data-testid="stSegmentedControl"] button{
+ padding:0.35rem 0.48rem!important;font-size:0.84rem!important}
+@media(max-width:1080px){
+ .db-stage-heading span{display:block;margin-left:0;margin-top:4px}
+}
+
+/* ===== V10.11: actual LEFT rail, not an imitation top navigation. ===== */
+/* The native sidebar is permanently collapsed; our navigation is a real,
+   always-rendered Streamlit column with real clickable route buttons. */
+[data-testid="stSidebar"], [data-testid="collapsedControl"],
+[data-testid="stSidebarCollapsedControl"]{display:none!important}
+[data-testid="stMainBlockContainer"]{padding:1.0rem 1.3rem 3rem!important}
+.block-container{max-width:1760px!important;padding-top:1rem!important}
+/* Scope solely to the outer shell block containing its own marker. */
+[data-testid="stHorizontalBlock"]:has(.db-workspace-nav-marker){align-items:stretch!important;gap:1.2rem!important}
+[data-testid="stHorizontalBlock"]:has(.db-workspace-nav-marker)>[data-testid="stColumn"]:first-child{
+  position:sticky!important;top:1rem!important;align-self:flex-start!important;
+  background:#fff!important;border:1px solid #e3e8f1!important;
+  box-shadow:0 9px 26px rgba(47,66,107,.06)!important;
+  border-radius:17px!important;min-width:205px!important;
+  min-height:calc(100vh - 2rem)!important;max-height:calc(100vh - 2rem)!important;
+  overflow-y:auto!important;padding:18px 13px!important;box-sizing:border-box!important;
+}
+[data-testid="stHorizontalBlock"]:has(.db-workspace-nav-marker)>[data-testid="stColumn"]:nth-child(2){
+  min-width:0!important;flex:1 1 0!important;
+}
+.db-workspace-nav-marker{height:0!important;overflow:hidden!important}
+.db-side-person{border:1px solid #e4e9f3;border-radius:10px;background:#f7f9fd;
+  padding:11px 10px;font-size:12px;font-weight:650;color:#526783;margin-top:8px}
+/* Sidebar nav buttons: prominent selected state, clean neutral idle state. */
+[data-testid="stColumn"]:has(.db-workspace-nav-marker) .stButton button{
+  width:100%!important;min-height:43px!important;justify-content:flex-start!important;
+  text-align:left!important;border-radius:10px!important;
+  background:transparent!important;color:#607289!important;
+  border:1px solid transparent!important;font-size:13px!important;
+  font-weight:650!important;padding:8px 12px!important;
+  box-shadow:none!important;white-space:normal!important;
+}
+[data-testid="stColumn"]:has(.db-workspace-nav-marker) .stButton button:hover{
+ background:#f0f5fc!important;color:#29699c!important;
+}
+[data-testid="stColumn"]:has(.db-workspace-nav-marker) .stButton button[kind="primary"]{
+ background:linear-gradient(110deg,#e8f3fc,#e9f5f3)!important;
+ color:#22618d!important;border-color:#d5e7f5!important;
+ border-left:3px solid #377fc5!important;font-weight:850!important;
+}
+[data-testid="stColumn"]:has(.db-workspace-nav-marker) .db-sidebar-foot{
+ background:#f6f8fc!important;border-color:#e6eaf2!important;color:#657790!important;
+ font-size:11px!important;margin-top:22px!important;
+}
+/* No visible page navigation strip remains in the right-hand workspace. */
+@media(max-width:940px){
+ [data-testid="stHorizontalBlock"]:has(.db-workspace-nav-marker){display:flex!important;flex-direction:column!important}
+ [data-testid="stHorizontalBlock"]:has(.db-workspace-nav-marker)>[data-testid="stColumn"]:first-child{
+  position:relative!important;top:auto!important;min-height:0!important;max-height:none!important;
+  width:100%!important;min-width:0!important;
+ }
+ [data-testid="stHorizontalBlock"]:has(.db-workspace-nav-marker)>[data-testid="stColumn"]:nth-child(2){width:100%!important}
+ [data-testid="stColumn"]:has(.db-workspace-nav-marker) .stButton{display:inline-block!important;width:calc(50% - 6px)!important;margin-right:6px}
+}
+
+
+/* ===== V10.12: fix oversized rail in real Streamlit two-column workspace. =====
+   Important: Streamlit columns have their own flex-basis. In V10.11 only the
+   second column was assigned flex: 1 1 0. The first column was left flexible,
+   which allowed the navigation to grow to approximately half the viewport.
+   Constrain BOTH sides of the outer workspace, not every nested course column.
+*/
+@media (min-width: 941px) {
+  [data-testid="stHorizontalBlock"]:has(> [data-testid="stColumn"] .db-workspace-nav-marker) {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    align-items: flex-start !important;
+    column-gap: 18px !important;
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+  [data-testid="stHorizontalBlock"]:has(> [data-testid="stColumn"] .db-workspace-nav-marker)
+  > [data-testid="stColumn"]:first-child {
+    flex: 0 0 224px !important;
+    flex-grow: 0 !important;
+    flex-shrink: 0 !important;
+    flex-basis: 224px !important;
+    width: 224px !important;
+    min-width: 224px !important;
+    max-width: 224px !important;
+    box-sizing: border-box !important;
+  }
+  [data-testid="stHorizontalBlock"]:has(> [data-testid="stColumn"] .db-workspace-nav-marker)
+  > [data-testid="stColumn"]:nth-child(2) {
+    flex: 1 1 0% !important;
+    flex-grow: 1 !important;
+    flex-shrink: 1 !important;
+    flex-basis: 0% !important;
+    width: auto !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    box-sizing: border-box !important;
+  }
+}
+/* At medium desktop widths, keep the rail comfortably narrow. */
+@media (min-width: 941px) and (max-width: 1180px) {
+  [data-testid="stHorizontalBlock"]:has(> [data-testid="stColumn"] .db-workspace-nav-marker)
+  > [data-testid="stColumn"]:first-child {
+    flex: 0 0 190px !important;
+    flex-basis: 190px !important;
+    width: 190px !important;
+    min-width: 190px !important;
+    max-width: 190px !important;
+  }
+}
+/* On phones and very narrow windows, the rail becomes a compact top section. */
+@media (max-width: 940px) {
+  [data-testid="stHorizontalBlock"]:has(> [data-testid="stColumn"] .db-workspace-nav-marker)
+  > [data-testid="stColumn"]:first-child,
+  [data-testid="stHorizontalBlock"]:has(> [data-testid="stColumn"] .db-workspace-nav-marker)
+  > [data-testid="stColumn"]:nth-child(2) {
+    flex: 1 1 100% !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+  }
+}
+/* Use the left edge consistently for labels at all desktop zoom levels. */
+[data-testid="stColumn"]:has(.db-workspace-nav-marker) [data-testid="stButton"] button {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  text-align: left !important;
+  font-size: 13px !important;
+  line-height: 1.3 !important;
+}
+[data-testid="stColumn"]:has(.db-workspace-nav-marker) [data-testid="stButton"] button p {
+  margin: 0 !important;
+  text-align: left !important;
+}
