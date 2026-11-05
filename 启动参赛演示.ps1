@@ -1,4 +1,4 @@
-param([switch]$Sample)
+﻿param([switch]$Sample)
 $ErrorActionPreference = 'Stop'
 $projectRoot = $PSScriptRoot
 if (-not $projectRoot.StartsWith('F:\ai\', [System.StringComparison]::OrdinalIgnoreCase)) {
