@@ -21,7 +21,9 @@ from demo_store import (DEMO_STUDENTS, initialize, add_question, add_attempt,
 from lesson_planner import make_plan, plan_markdown, ai_rewrite_messages, pptx_bytes, hps_prompt
 from virtual_lab import make_trial, compare_trials
 from question_bank import BANK
-from service import call_ai, read_config, config_status
+from service import call_ai, read_config, config_status, provider_name
+from teaching_exchange import learning_card_id
+from access_control import authenticated_label, logout
 from hps_classroom import render_flagship, mendel_lab, meiosis_lab
 from course_catalog import load_plan, books, chapters, sections, terms, matching_cards, deep_teaching_question
 from section_lessons import get_section_core
@@ -127,6 +129,7 @@ if DEMO_PIN:
         st.caption('输入演示访问码后即可切换教师和学生演示角色。')
         st.stop()
 initialize()
+LOCKED_ACTOR=authenticated_label()
 
 @st.cache_data(show_spinner=False)
 def content():
@@ -264,13 +267,19 @@ def student_landing(student,stage):
         st.markdown('<div class="db-panel"><div class="db-panel-title">🗒️ 当前学习任务</div>'
             '<div class="db-panel-desc">老师布置的任务会同步到这里</div></div>',unsafe_allow_html=True)
         assign=[x for x in active_assignments() if x.get('stage')==stage]
+        from collaboration_store import student_tasks
+        assigned_tasks=[t for t in student_tasks(student) if len(t['answers'])<len(t['card']['question_ids'])]
+        if assigned_tasks:
+            st.info(f'有{len(assigned_tasks)}项导师专题任务待完成。')
+            st.button('进入导师任务  →',key='home_mentor_tasks_'+student,on_click=set_student_page,
+                      args=('学习档案',),use_container_width=True)
         if assign:
             for x in assign[:3]:
                 st.markdown(f'<div class="db-course-tile"><div class="db-course-title">{esc(x["chapter"])}</div>'
                     f'<div class="db-course-desc">{esc(x["note"])}</div></div>',unsafe_allow_html=True)
             st.button('去完成练习  →',key=f'db_assigned_{student}',on_click=set_student_page,
                       args=('章节练习',),use_container_width=True)
-        else:
+        elif not assigned_tasks:
             st.markdown('<div class="db-empty">目前没有老师布置的任务。你可以自主选择知识点学习，'
                         '完成练习后会生成自己的错题记录。</div>',unsafe_allow_html=True)
             st.button('开始章节练习  →',key=f'db_quiz_{student}',on_click=set_student_page,
@@ -424,7 +433,7 @@ def student_ask(student,stage):
     elif st.session_state.get(status_key):
         st.warning('上一次在线AI调用失败：'+st.session_state[status_key])
     else:
-        st.caption('已设置DeepSeek。每次回答下方会显示实际来源。')
+        st.caption('已配置'+provider_name()+'。每次回答下方显示实际调用来源。')
     key=f'ai_chat_{student}_{stage}'
     if key not in st.session_state:st.session_state[key]=[]
     messages=st.session_state[key]
@@ -444,8 +453,8 @@ def student_ask(student,stage):
             if entry['role']=='assistant':
                 # The source is based on the actual API response, not merely a configured key.
                 if entry.get('origin')=='online':
-                    model_name=entry.get('model') or 'DeepSeek'
-                    st.caption(f'本条回答：DeepSeek在线模型（{model_name}）')
+                    model_name=entry.get('model') or '在线模型'
+                    st.caption(f'本条回答：{entry.get("provider") or provider_name()}（{model_name}）')
                 elif entry.get('origin')=='offline':
                     st.caption('本条回答：本地课程资料（未调用在线模型）')
                 else:
@@ -481,10 +490,14 @@ def student_ask(student,stage):
         grounding=[focused]+[g for g in grounding if g.get('id')!=focused['id']][:2]
     prev_history=[(m['role'],m['content']) for m in messages[-8:]]
     response='';source='已有课程内容'
-    response_origin='offline';response_model=None
+    response_origin='offline';response_model=None;response_provider='';response_id=''
     if configured:
         try:
-            result=call_ai(make_course_messages(question,grounding,'知识理解',stage,history=prev_history))
+            from collaboration_store import reserve_request
+            if reserve_request(student,'student_question'):
+                with st.spinner('正在结合课程资料思考…'):
+                    result=call_ai(make_course_messages(question,grounding,'知识理解',stage,history=prev_history))
+            else:result={'ok':False,'error':'当前学习身份本小时的在线提问额度已用完，可继续浏览课程和练习。'}
         except Exception:
             result={'ok':False,'error':'调用遇到异常，请检查模型服务或网络设置'}
         if result.get('ok'):
@@ -492,7 +505,10 @@ def student_ask(student,stage):
             if response:
                 source='AI学习助手'
                 response_origin='online'
-                response_model=str(result.get('model') or read_config('BIOHPS_MODEL','DeepSeek'))
+                response_model=str(result.get('model') or read_config('BIOHPS_MODEL','在线模型'))
+                response_provider=result.get('provider') or provider_name()
+                response_id=result.get('response_id','')
+                source=response_provider
                 st.session_state.pop(status_key,None)
         else:
             # The next st.rerun() would otherwise remove this warning.
@@ -501,10 +517,10 @@ def student_ask(student,stage):
     if not response:
         response=offline_explanation(question,grounding,prev_history)
     topic=grounding[0]['title'] if grounding else '待归类问题'
-    add_question(student,question,stage,topic,grounding[0]['id'] if grounding else '',source)
+    add_question(student,question,stage,topic,learning_card_id(grounding[0]['id']) if grounding else '',source)
     messages.extend([{'role':'user','content':question},
                      {'role':'assistant','content':response,'origin':response_origin,
-                      'model':response_model}])
+                      'model':response_model,'provider':response_provider,'response_id':response_id}])
     st.session_state[f'last_course_context_{student}_{stage}']={'knowledge_ids':[h['id'] for h in grounding]}
     st.rerun()
 
@@ -608,6 +624,8 @@ def student_hps(student,stage):
 
 def student_record(student):
     st.subheader('📒 我的学习')
+    from exchange_ui import render_student_exchange
+    render_student_exchange(student)
     info=student_summary(student)
     a,b,c=st.columns(3)
     a.metric('提出问题',len(info['questions']))
@@ -802,7 +820,11 @@ def teacher_questions():
 
 
 def teacher_prepare():
-    st.subheader('🧑‍🏫 AI辅助备课')
+    st.subheader('🧑‍🏫 导师工作区 · AI辅助备课')
+    from exchange_ui import render_mentor_exchange
+    render_mentor_exchange()
+    st.divider()
+    st.markdown('### 原有备课与课程支持')
     data=report()
     options=['自动选择班级高频问题']+[r['topic'] for r in data['focus'][:8]]
     choice=st.selectbox('准备下一节课的主题',options)
@@ -875,7 +897,7 @@ def teacher_prepare():
                 st.success('模型回应：'+tested['text'][:80])
             else:
                 st.error('连接失败：'+tested.get('error','未知原因'))
-    with st.expander('使用现有DeepSeek进一步优化讲解与活动'):
+    with st.expander('使用在线模型进一步优化讲解与活动'):
         
         if st.button('让AI优化备课方案',key='ai_rewrite'):
             with st.spinner('正在整理备课建议…'):
@@ -903,6 +925,9 @@ def switch_demo_role(target):
 
     '返回学生端' is the only action that restores the last learner.
     """
+    if LOCKED_ACTOR is not None:
+        st.session_state['demo_actor']=LOCKED_ACTOR
+        return
     students = ('学生A','学生B','学生C','学生D')
     selected = st.session_state.get('demo_actor', '学生A')
     if target == '返回学生端':
@@ -973,6 +998,8 @@ if st.session_state.get('db_toolbar_grade') not in ('初中','高中'):
 # V10.11: All navigation belongs in the visibly rendered LEFT workspace rail.
 # Do not put a second nav strip in the content header, and do not depend on the
 # collapsible Streamlit native sidebar: on some desktop zoom levels it vanished.
+if LOCKED_ACTOR is not None:
+    st.session_state['demo_actor']=LOCKED_ACTOR
 if st.session_state.get('demo_actor') not in ACTORS:
     st.session_state['demo_actor']='学生A'
 actor_label=st.session_state['demo_actor']
@@ -1062,13 +1089,17 @@ with content_col:
             st.markdown(f'<div class="db-topdate">{today.month}月{today.day}日</div>',
                         unsafe_allow_html=True)
         with header[4]:
-            st.selectbox('切换学生或教师',list(ACTORS),key='db_toolbar_actor',
-                         on_change=toolbar_role_changed,label_visibility='collapsed')
+            if LOCKED_ACTOR is not None:st.write(actor_label+' · 独立工作区')
+            else:
+                st.selectbox('切换学生或教师',list(ACTORS),key='db_toolbar_actor',
+                             on_change=toolbar_role_changed,label_visibility='collapsed')
         with header[5]:
-            st.button('👩‍🏫 教师端' if actor!='teacher' else '🎓 返回学生端',
-                type='secondary',key='db_role_switch',
-                on_click=switch_demo_role,args=('教师' if actor!='teacher' else '返回学生端',),
-                use_container_width=True)
+            if LOCKED_ACTOR is not None:st.button('退出工作区',on_click=logout,key='workspace_logout')
+            else:
+                st.button('👩‍🏫 教师端' if actor!='teacher' else '🎓 返回学生端',
+                    type='secondary',key='db_role_switch',
+                    on_click=switch_demo_role,args=('教师' if actor!='teacher' else '返回学生端',),
+                    use_container_width=True)
 
     if actor=='teacher':
         page=st.session_state['teacher_page']

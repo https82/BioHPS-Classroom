@@ -244,6 +244,9 @@ def reset_demo(confirmed=False):
         con.execute('DELETE FROM experiment_trials')
         con.execute('DELETE FROM hps_events')
         con.execute('DELETE FROM story_attempts')
+        names={r[0] for r in con.execute("SELECT name FROM sqlite_master WHERE type='table'")}
+        for table in ('learning_task_answers','learning_tasks','model_requests'):
+            if table in names:con.execute('DELETE FROM '+table)
 
 
 def post_assignment(stage,chapter,note):

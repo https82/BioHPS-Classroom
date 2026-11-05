@@ -1,0 +1,10 @@
+BioHPS V10.3 启动说明
+
+1. 将ZIP解压到 F:\ai2\BioHPS_V10_3，保留所有文件，尤其 knowledge\learning_resources_5000.jsonl。
+2. 在该目录打开PowerShell，运行：
+
+& 'F:\ai2\BioHPS_V6_2\.venv\Scripts\python.exe' -m streamlit run app.py
+
+进入 http://localhost:8501 。
+首页检查顶部无遮挡、三张入口卡片对齐；高中课程选必修2-孟德尔，再找“测交验证假说”；初中切到生物多样性看多段课程；试试搜索“四分体”。
+注意：保留旧V10.2和云端网站，先本地验收后再考虑上线。DeepSeek账号参数仍通过Secrets设置，不要把密钥传给别人。

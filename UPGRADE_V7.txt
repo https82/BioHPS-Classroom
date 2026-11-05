@@ -1,0 +1,14 @@
+BioHPS V7.0 快速升级说明
+
+1. 原版 BioHPS_project 先备份；保持之前能正常运行的V6.2。
+2. 停止本地 Streamlit（Ctrl+C）。
+3. 复制本包3个文件到旧 BioHPS_project 根目录：app.py、learning_loop.py、virtual_lab.py。
+4. 保留 .venv、.streamlit/secrets.toml、knowledge/、curriculum.py、service.py 等旧文件。
+5. PowerShell：
+   Test-Path .\learning_loop.py
+   Test-Path .\virtual_lab.py
+   .\.venv\Scripts\python.exe -m streamlit run app.py
+6. 首页点击 “🎯 自适应学练” 和 “🔬 虚拟实验室”；演示前先本地测试。
+7. 再按 DEPLOYMENT_GUIDE.md 将3个文件上传到GitHub同一仓库。
+
+新功能的题目和模拟结果均不是已审核的真实课堂测评数据；禁止向参赛材料虚报教学提升。

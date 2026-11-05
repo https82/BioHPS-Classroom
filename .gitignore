@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.streamlit/secrets.toml
+.env
+.env.*
+*.log
+*.sqlite3
+# Local evaluation outputs (may contain student-like prompts or model responses)
+evaluation/results/*
+!evaluation/results/.gitkeep
+.streamlit/credentials.toml
+# V9 local demo records (never upload student activity)
+demo_data/*.sqlite
+demo_data/*.sqlite-*
+demo_data/*.db
+demo_data/*.db-*
+.streamlit/secrets.toml
+demo_data/*.sqlite*

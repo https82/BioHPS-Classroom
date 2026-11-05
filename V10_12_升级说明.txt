@@ -1,0 +1,13 @@
+BioHPS V10.12 窄版左侧导航修复
+
+问题：V10.11 左侧导航列未限制最大宽度，可能占用半屏。
+修复：桌面屏幕固定左栏224px（中等屏幕190px），右边自适应铺满；手机窄屏上下排列。
+
+最小升级：停止Streamlit，备份原 dashboard_styles.css，仅用本包同名CSS覆盖。
+不需覆盖app.py，不需重新安装依赖，不需修改DeepSeek配置或学习数据。
+
+启动：在当前项目根目录执行
+& 'F:\ai2\BioHPS_V6_2\.venv\Scripts\python.exe' -m streamlit run app.py
+按Ctrl+Shift+R强制刷新，建议浏览器缩放恢复100%。
+
+验收：在宽屏中左栏应约224px，右侧课程首页应占主要宽度；左栏六个学生导航和教师端功能均能切换。
