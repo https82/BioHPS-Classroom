@@ -139,7 +139,19 @@ def render_mentor_exchange():
             if not bullets or len(bullets)>6 or any(len(b)>80 for b in bullets):
                 st.warning('每页请填写1至6条要点，每条不超过80字。');return
             sections.append(dict(title=sec['title'],bullets=bullets))
-        edited={**plan,'sections':sections}
+        allowed_questions=[qid for qid,q in BANK.items() if q['card_id']==COURSES[course]['card_id']]
+        recommended=st.multiselect('审核并选择给学生的练习',allowed_questions,
+            default=plan['recommended_question_ids'],
+            format_func=lambda qid:qid+' · '+BANK[qid]['question'],key='mentor_question_review_'+revision)
+        if not 1<=len(recommended)<=8:
+            st.info('请保留1至8道本专题练习，再导出课件或发布任务。');return
+        with st.expander('预览推荐练习与参考解析'):
+            for qid in recommended:
+                q=BANK[qid]
+                st.write(q['question'])
+                st.caption('参考答案：'+q['options'][q['answer']])
+                st.write(q['explanation'])
+        edited={**plan,'sections':sections,'recommended_question_ids':recommended}
         lesson=as_lesson(edited,packet)
         cols=st.columns(2)
         cols[0].download_button('下载审核后的备课大纲',plan_markdown(lesson),file_name='BioHPS_导师备课大纲.md')
