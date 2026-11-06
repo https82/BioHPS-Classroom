@@ -83,20 +83,19 @@ def test_mentor_agent_uses_scoped_evidence_and_validates_output():
     assert result['ok'] and len(result['plan']['sections'])==7
 
 
-def test_access_codes_lock_student_role_until_logout(monkeypatch):
+def test_demo_workspaces_open_and_switch_without_access_codes(monkeypatch):
     from pathlib import Path
     from streamlit.testing.v1 import AppTest
-    for sid in ('S1','S2','S3','S4','TEACHER'):
-        monkeypatch.setenv('BIOHPS_ACCESS_'+sid,'test-access-'+sid)
+    monkeypatch.setenv('BIOHPS_DEMO_PIN','old-demo-pin')
+    monkeypatch.setenv('BIOHPS_ACCESS_S1','old-student-access')
     at=AppTest.from_file(str(Path(__file__).resolve().parents[1]/'app.py')).run(timeout=30)
     assert not at.exception
-    assert any(b.label=='进入工作区' for b in at.button)
-    at.text_input(key='login_access_code').set_value('test-access-S1')
-    next(b for b in at.button if b.label=='进入工作区').click().run(timeout=30)
-    assert at.session_state['_signed_actor']=='学生A'
-    assert not any(s.key=='db_toolbar_actor' for s in at.selectbox)
-    at.session_state['demo_actor']='教师'
-    at.run(timeout=30)
-    assert at.session_state['demo_actor']=='学生A'
-    at.button(key='workspace_logout').click().run(timeout=30)
-    assert any(b.label=='进入工作区' for b in at.button)
+    assert not any('访问码' in field.label for field in at.text_input)
+    at.selectbox(key='db_toolbar_actor').select('学生B').run(timeout=30)
+    assert at.session_state['demo_actor']=='学生B'
+    at.button(key='db_role_switch').click().run(timeout=30)
+    assert at.session_state['demo_actor']=='教师'
+    assert at.session_state['teacher_page']=='班级学情'
+    at.button(key='db_role_switch').click().run(timeout=30)
+    assert at.session_state['demo_actor']=='学生B'
+    assert not at.exception

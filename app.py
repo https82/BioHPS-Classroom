@@ -7,7 +7,6 @@ from collections import Counter
 from datetime import datetime
 from pathlib import Path
 import json
-import hmac
 import time
 
 import streamlit as st
@@ -23,7 +22,6 @@ from virtual_lab import make_trial, compare_trials
 from question_bank import BANK
 from service import call_ai, read_config, config_status, provider_name
 from teaching_exchange import learning_card_id
-from access_control import authenticated_label, logout
 from hps_classroom import render_flagship, mendel_lab, meiosis_lab
 from course_catalog import load_plan, books, chapters, sections, terms, matching_cards, deep_teaching_question
 from section_lessons import get_section_core
@@ -120,16 +118,7 @@ h2{font-weight:750!important}
 
 ROOT=Path(__file__).resolve().parent
 st.markdown("<style>" + (ROOT/"dashboard_styles.css").read_text(encoding="utf-8") + "</style>", unsafe_allow_html=True)
-# Optional one-code gate for fictional competition demonstrations; NOT real authentication.
-DEMO_PIN=str(read_config('BIOHPS_DEMO_PIN','') or '').strip()
-if DEMO_PIN:
-    st.markdown('## 🌱 探知 BioHPS · 演示访问')
-    entered=st.text_input('演示访问码',type='password',key='demo_access_code')
-    if not hmac.compare_digest(DEMO_PIN,entered):
-        st.caption('输入演示访问码后即可切换教师和学生演示角色。')
-        st.stop()
 initialize()
-LOCKED_ACTOR=authenticated_label()
 
 @st.cache_data(show_spinner=False)
 def content():
@@ -925,9 +914,6 @@ def switch_demo_role(target):
 
     '返回学生端' is the only action that restores the last learner.
     """
-    if LOCKED_ACTOR is not None:
-        st.session_state['demo_actor']=LOCKED_ACTOR
-        return
     students = ('学生A','学生B','学生C','学生D')
     selected = st.session_state.get('demo_actor', '学生A')
     if target == '返回学生端':
@@ -998,8 +984,6 @@ if st.session_state.get('db_toolbar_grade') not in ('初中','高中'):
 # V10.11: All navigation belongs in the visibly rendered LEFT workspace rail.
 # Do not put a second nav strip in the content header, and do not depend on the
 # collapsible Streamlit native sidebar: on some desktop zoom levels it vanished.
-if LOCKED_ACTOR is not None:
-    st.session_state['demo_actor']=LOCKED_ACTOR
 if st.session_state.get('demo_actor') not in ACTORS:
     st.session_state['demo_actor']='学生A'
 actor_label=st.session_state['demo_actor']
@@ -1089,17 +1073,13 @@ with content_col:
             st.markdown(f'<div class="db-topdate">{today.month}月{today.day}日</div>',
                         unsafe_allow_html=True)
         with header[4]:
-            if LOCKED_ACTOR is not None:st.write(actor_label+' · 独立工作区')
-            else:
-                st.selectbox('切换学生或教师',list(ACTORS),key='db_toolbar_actor',
-                             on_change=toolbar_role_changed,label_visibility='collapsed')
+            st.selectbox('切换学生或教师',list(ACTORS),key='db_toolbar_actor',
+                         on_change=toolbar_role_changed,label_visibility='collapsed')
         with header[5]:
-            if LOCKED_ACTOR is not None:st.button('退出工作区',on_click=logout,key='workspace_logout')
-            else:
-                st.button('👩‍🏫 教师端' if actor!='teacher' else '🎓 返回学生端',
-                    type='secondary',key='db_role_switch',
-                    on_click=switch_demo_role,args=('教师' if actor!='teacher' else '返回学生端',),
-                    use_container_width=True)
+            st.button('👩‍🏫 教师端' if actor!='teacher' else '🎓 返回学生端',
+                type='secondary',key='db_role_switch',
+                on_click=switch_demo_role,args=('教师' if actor!='teacher' else '返回学生端',),
+                use_container_width=True)
 
     if actor=='teacher':
         page=st.session_state['teacher_page']
